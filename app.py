@@ -2,8 +2,32 @@ import streamlit as st
 import random
 import json
 
-# Set up the web page title and layout
+# Set up page styling and force dark theme elements
 st.set_page_config(page_title="STEAM Quiz Show", layout="centered")
+
+# --- CUSTOM CSS INJECTION FOR THE TKINTER LOOK ---
+st.markdown(
+    """
+    <style>
+        /* Global Background and Text Color Alignment */
+        .stApp {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+        h1, h2, h3, h4, h5, h6, p, label, .stMarkdown {
+            color: #ecf0f1 !important;
+            font-family: 'Arial', sans-serif !important;
+        }
+        /* Style secondary elements */
+        .stCaption {
+            color: #3498db !important;
+            font-size: 16px !important;
+            font-weight: bold !important;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 
 # ---------------------------------------------------------
@@ -14,7 +38,6 @@ def load_all_questions():
     try:
         with open("questions.json", "r", encoding="utf-8") as file:
             data = json.load(file)
-            # Handle list-wrapped data safely
             cleaned_data = []
             for item in data:
                 if isinstance(item, list) and len(item) > 0:
@@ -39,33 +62,43 @@ if "questions" not in st.session_state:
     st.session_state.reveal_pressed = False
     st.session_state.shuffled_options = []
 
+# Hex color mappings from your original COLOR_LIBRARY
+COLOR_LIBRARY = {
+    "Red": "#e74c3c",
+    "Orange": "#e67e22",
+    "Yellow": "#f1c40f",
+    "Green": "#2ecc71",
+    "Blue": "#3498db",
+    "Purple": "#9b59b6"
+}
+
 # ---------------------------------------------------------
 # STEP 3: SCREEN 1 - SETUP SCREEN
 # ---------------------------------------------------------
 if not st.session_state.setup_complete:
-    st.title("🏆 STEAM Quiz Show Setup")
-    st.subheader("Configure your classroom teams")
+    st.markdown("<h1 style='text-align: center; color: #f1c40f !important;'>GAME SHOW SETUP</h1>",
+                unsafe_allow_html=True)
 
-    num_teams = st.slider("How many teams?", min_value=2, max_value=6, value=3)
+    num_teams = st.slider("How many teams? (2-6):", min_value=2, max_value=6, value=3)
 
-    color_options = ["Red", "Orange", "Yellow", "Green", "Blue", "Purple"]
+    color_options = list(COLOR_LIBRARY.keys())
     team_configs = {}
 
-    st.write("### Assign Team Colors")
+    st.write("### Assign Colors")
     for i in range(num_teams):
-        # Pick default colors down the line to avoid immediate duplicates
         default_color = color_options[i % len(color_options)]
-        chosen_color = st.selectbox(f"Team {i + 1} Color:", color_options, index=color_options.index(default_color),
+        chosen_color = st.selectbox(f"Team {i + 1}:", color_options, index=color_options.index(default_color),
                                     key=f"setup_team_{i}")
-        team_configs[f"Team {chosen_color}"] = chosen_color
+        team_configs[f"Team {chosen_color}"] = COLOR_LIBRARY[chosen_color]
 
+    st.write("")
     if st.button("🚀 START GAME", type="primary", use_container_width=True):
-        # Unique color check
-        selected_colors = list(team_configs.keys())
+        selected_colors = list(team_configs.values())
         if len(set(selected_colors)) < len(selected_colors):
-            st.error("Each team must have a unique color selection!")
+            st.error("Each team must have a unique color!")
         else:
             st.session_state.scores = {team: 0 for team in team_configs.keys()}
+            st.session_state.team_colors = team_configs
             st.session_state.setup_complete = True
             st.rerun()
 
@@ -76,20 +109,18 @@ else:
     questions = st.session_state.questions
     idx = st.session_state.current_idx
 
-    # Check if the game is finished
     if idx >= len(questions) or not questions:
-        st.title("🏁 Game Over!")
+        st.markdown("<h1 style='text-align: center;'>🏆 Quiz Finished!</h1>", unsafe_allow_html=True)
         st.balloons()
 
-        # Determine winners
         if st.session_state.scores:
             max_score = max(st.session_state.scores.values())
             winners = [team for team, score in st.session_state.scores.items() if score == max_score]
 
             if len(winners) == 1:
-                st.success(f"### 🏆 The winner is {winners[0]} with {max_score} points!")
+                st.success(f"### The winner is {winners[0]} with {max_score} points!")
             else:
-                st.info(f"### 🤝 It's a tie between: {', '.join(winners)} with {max_score} points!")
+                st.info(f"### It's a tie between: {', '.join(winners)} with {max_score} points!")
 
         if st.button("🔄 Play Again", use_container_width=True):
             st.session_state.clear()
@@ -98,7 +129,6 @@ else:
     else:
         current_q = questions[idx]
 
-        # Clean background formatting strings if options have A) or 1.
         if not st.session_state.shuffled_options:
             raw_opts = []
             for opt in current_q["options"]:
@@ -109,62 +139,97 @@ else:
             random.shuffle(raw_opts)
 
             letters = ["A)", "B)", "C)", "D)"]
-            st.session_state.shuffled_options = [f"{letters[i]} {raw_opts[i]}" for i in range(len(raw_opts))]
+            st.session_state.shuffled_options = [f"{letters[i]}  {raw_opts[i]}" for i in range(len(raw_opts))]
 
-        # Header Subject Banner
-        st.caption(f"🎨 SUBJECT: {current_q.get('subject', 'GENERAL')}")
-        st.title(f"Question {idx + 1}")
+        # Subject Banner
+        st.caption(f"SUBJECT: {current_q.get('subject', 'GENERAL')}")
 
-        # Fixed, styled Question Box using markdown card elements
+        # Locked-Size HTML Question Display Box (Exactly matched to Tkinter look)
         st.markdown(
             f"""
-            <div style="background-color: #34495e; padding: 25px; border-radius: 10px; margin-bottom: 20px; border: 2px solid #465d75;">
-                <h3 style="color: white; text-align: center; margin: 0; font-family: sans-serif; line-height: 1.5;">
-                    {current_q.get('question', '')}
-                </h3>
+            <div style="background-color: #34495e; padding: 20px; border-radius: 6px; border: 2px solid #415b76; min-height: 120px; display: flex; align-items: center; justify-content: center; margin-bottom: 10px;">
+                <h2 style="color: white !important; text-align: center; margin: 0; font-family: 'Arial', sans-serif; font-size: 22px; font-weight: bold; line-height: 1.4;">
+                    Question {idx + 1}:<br>{current_q.get('question', '')}
+                </h2>
             </div>
             """,
             unsafe_allow_html=True
         )
 
-        # Options Layout Grid
-        col1, col2 = st.columns(2)
+        # High-Visibility Vertical Options Grid (Matching the Dark #1e272e Option Box layout)
         opts = st.session_state.shuffled_options
+        col1, col2 = st.columns(2)
+
+        option_style = """
+        <div style="background-color: #1e272e; padding: 15px 20px; border-radius: 4px; border: 1px solid #34495e; margin: 8px 0;">
+            <p style="color: #ecf0f1 !important; margin: 0; font-family: 'Arial', sans-serif; font-size: 16px; font-weight: bold;">
+                {text}
+            </p>
+        </div>
+        """
 
         with col1:
-            st.info(opts[0])
-            if len(opts) > 2: st.info(opts[2])
+            st.markdown(option_style.format(text=opts[0]), unsafe_allow_html=True)
+            if len(opts) > 2:
+                st.markdown(option_style.format(text=opts[2]), unsafe_allow_html=True)
         with col2:
-            if len(opts) > 1: st.info(opts[1])
-            if len(opts) > 3: st.info(opts[3])
+            if len(opts) > 1:
+                st.markdown(option_style.format(text=opts[1]), unsafe_allow_html=True)
+            if len(opts) > 3:
+                st.markdown(option_style.format(text=opts[3]), unsafe_allow_html=True)
 
-        st.markdown("---")
+        st.write("")
 
-        # Answer Section
-        c_left, c_right = st.columns([1, 2])
-        with c_left:
-            if st.button("👀 Reveal Answer", use_container_width=True):
-                st.session_state.reveal_pressed = True
-        with c_right:
-            if st.session_state.reveal_pressed:
-                st.success(f"🎯 Correct Answer Target: {current_q.get('answer', '')}")
+        # Reveal Answer Section (Uses Custom Yellow Banner Styling)
+        if st.button("👀 REVEAL CORRECT ANSWER", use_container_width=True):
+            st.session_state.reveal_pressed = True
 
-        st.markdown("### 🚨 Host Control Panel")
-        st.write("Click the team that successfully buzzed in first to award 1 point:")
+        if st.session_state.reveal_pressed:
+            st.markdown(
+                f"""
+                <div style="text-align: center; margin-top: 5px; margin-bottom: 15px;">
+                    <h3 style="color: #2ecc71 !important; font-family: 'Arial', sans-serif; font-weight: bold;">
+                        🎯 Correct Answer: {current_q.get('answer', '')}
+                    </h3>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
 
-        # Map nice display colors for web context buttons
-        color_map = {"Red": "red", "Orange": "orange", "Yellow": "secondary", "Green": "green", "Blue": "blue",
-                     "Purple": "primary"}
+        # Host Control Panel Frame Header
+        st.markdown(
+            """
+            <div style="border-bottom: 1px solid #bdc3c7; margin-top: 20px; margin-bottom: 10px;">
+                <p style="margin: 0; font-size: 14px; font-weight: bold; color: #bdc3c7 !important; letter-spacing: 1px;">
+                    HOST PANEL: CLICK WHO BUZZED IN FIRST
+                </p>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 
+        # Generate Host Buzz-In Action Layout with fully colored native web buttons
         host_cols = st.columns(len(st.session_state.scores) + 1)
 
         for i, team in enumerate(st.session_state.scores.keys()):
-            team_color = team.split(" ")[-1]
-            btn_type = color_map.get(team_color, "secondary")
+            team_color_hex = st.session_state.team_colors[team]
+            text_color = "black" if "Yellow" in team else "white"
 
             with host_cols[i]:
-                if st.button(f"🚨 {team}", type="primary" if btn_type == "primary" else "secondary",
-                             use_container_width=True):
+                # Dynamic HTML button injection injection handles beautiful system coloring flawlessly on Web/Mac
+                button_html = f"""
+                <style>
+                    div[data-testid="stHorizontalBlock"] button[key="btn_{team}"] {{
+                        background-color: {team_color_hex} !important;
+                        color: {text_color} !important;
+                        font-weight: bold !important;
+                        border: none !important;
+                    }}
+                </style>
+                """
+                st.markdown(button_html, unsafe_allow_html=True)
+
+                if st.button(f"🚨 {team}", key=f"btn_{team}", use_container_width=True):
                     st.session_state.scores[team] += 1
                     st.session_state.current_idx += 1
                     st.session_state.reveal_pressed = False
@@ -172,16 +237,49 @@ else:
                     st.rerun()
 
         with host_cols[-1]:
-            if st.button("❌ Skip Q", use_container_width=True):
+            # Styled Skip Button
+            st.markdown(
+                """
+                <style>
+                    div[data-testid="stHorizontalBlock"] button[key="skip_btn"] {
+                        background-color: #95a5a6 !important;
+                        color: black !important;
+                        font-weight: bold !important;
+                        border: none !important;
+                    }
+                </style>
+                """,
+                unsafe_allow_html=True
+            )
+            if st.button("❌ Skip Q", key="skip_btn", use_container_width=True):
                 st.session_state.current_idx += 1
                 st.session_state.reveal_pressed = False
                 st.session_state.shuffled_options = []
                 st.rerun()
 
-        # Score Leaderboard Section at Bottom
-        st.markdown("---")
-        st.write("### 📊 Live Leaderboard")
+        # Leaderboard Section at Bottom matching Tkinter framework layout
+        st.markdown(
+            """
+            <div style="border-bottom: 1px solid #bdc3c7; margin-top: 30px; margin-bottom: 15px;">
+                <p style="margin: 0; font-size: 14px; font-weight: bold; color: #bdc3c7 !important; letter-spacing: 1px;">
+                    CURRENT SCORES (1 POINT PER CORRECT ANSWER)
+                </p>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
         score_cols = st.columns(len(st.session_state.scores))
         for i, (team, score) in enumerate(st.session_state.scores.items()):
+            team_color_hex = st.session_state.team_colors[team]
             with score_cols[i]:
-                st.metric(label=team, value=f"{score} pts")
+                st.markdown(
+                    f"""
+                    <div style="text-align: center; padding: 10px; border-radius: 4px; background-color: #34495e;">
+                        <span style="color: {team_color_hex} !important; font-size: 18px; font-weight: bold;">
+                            {team}: {score}
+                        </span>
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                )

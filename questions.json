@@ -1,0 +1,388 @@
+[
+  {
+    "subject": "SCIENCE",
+    "question": "What is the process by which plants use sunlight, water, and carbon dioxide to create food and oxygen?",
+    "options": ["A) Respiration", "B) Photosynthesis", "C) Digestion", "D) Evaporation"],
+    "answer": "B) Photosynthesis"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which layer of the Earth is located directly beneath the crust and is made of hot, semi-solid rock?",
+    "options": ["A) Inner Core", "B) Outer Core", "C) Mantle", "D) Atmosphere"],
+    "answer": "C) Mantle"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What state of matter has a definite volume but takes the shape of whatever container it is poured into?",
+    "options": ["A) Solid", "B) Liquid", "C) Gas", "D) Plasma"],
+    "answer": "B) Liquid"
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "Which of the following is an example of an 'input device' for a computer?",
+    "options": ["A) Monitor", "B) Printer", "C) Keyboard", "D) Headphones"],
+    "answer": "C) Keyboard"
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "What does 'URL' stand for?",
+    "options": ["A) Uniform Resource Locator", "B) Universal Recovery Link", "C) User Runtime Log", "D) United Research Network"],
+    "answer": "A) Uniform Resource Locator"
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "In computer science, a single variable that can only hold 'True' or 'False' is called what?",
+    "options": ["A) String", "B) Integer", "C) Float", "D) Boolean"],
+    "answer": "D) Boolean"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "Which type of bridge uses long steel cables hung from massive towers to hold up the road?",
+    "options": ["A) Arch Bridge", "B) Suspension Bridge", "C) Beam Bridge", "D) Truss Bridge"],
+    "answer": "B) Suspension Bridge"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "Aeronautic engineers study lift and drag to design which type of vehicle?",
+    "options": ["A) Airplanes", "B) Submarines", "C) Trains", "D) Bulldozers"],
+    "answer": "A) Outer space and air"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "What basic mechanical device uses a wheel with a grooved rim and a rope to lift heavy loads?",
+    "options": ["A) Lever", "B) Pulley", "C) Screw", "D) Wedge"],
+    "answer": "B) Pulley"
+  },
+  {
+    "subject": "ARTS",
+    "question": "If you mix the primary colors Blue and Yellow together, what secondary color do you get?",
+    "options": ["A) Purple", "B) Orange", "C) Green", "D) Brown"],
+    "answer": "C) Green"
+  },
+  {
+    "subject": "ARTS",
+    "question": "In music, what term is used to describe how fast or slow a piece of music is played?",
+    "options": ["A) Pitch", "B) Tempo", "C) Rhythm", "D) Melody"],
+    "answer": "B) Tempo"
+  },
+  {
+    "subject": "ARTS",
+    "question": "What is the artistic technique of creating an illusion of 3D depth on a flat 2D surface?",
+    "options": ["A) Perspective", "B) Shading", "C) Texturing", "D) Abstracting"],
+    "answer": "A) Perspective"
+  },
+  {
+    "subject": "MATH",
+    "question": "What is the mathematical term for the perimeter of a perfect circle?",
+    "options": ["A) Diameter", "B) Radius", "C) Area", "D) Circumference"],
+    "answer": "D) Circumference"
+  },
+  {
+    "subject": "MATH",
+    "question": "Solve this equation for X:  3X + 5 = 20",
+    "options": ["A) X = 3", "B) X = 5", "C) X = 15", "D) X = 4"],
+    "answer": "B) X = 5"
+  },
+  {
+    "subject": "MATH",
+    "question": "An angle that measures exactly 90 degrees is known as what kind of angle?",
+    "options": ["A) Acute Angle", "B) Obtuse Angle", "C) Right Angle", "D) Straight Angle"],
+    "answer": "C) Right Angle"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What force pulls objects toward the center of the Earth and keeps the planets orbiting the Sun?",
+    "options": ["A) Magnetism", "B) Friction", "C) Gravity", "D) Inertia"],
+    "answer": "C) Gravity"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which human body system is responsible for breaking down food into nutrients that cells can use?",
+    "options": ["A) Respiratory System", "B) Digestive System", "C) Circulatory System", "D) Nervous System"],
+    "answer": "B) Digestive System"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is the term for an animal that only eats other animals for food?",
+    "options": ["A) Herbivore", "B) Omnivore", "C) Carnivore", "D) Decomposer"],
+    "answer": "C) Carnivore"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which unique geological feature is formed when tectonic plates collide and push the Earth's crust upward?",
+    "options": ["A) Canyon", "B) Mountain Range", "C) Ocean Trench", "D) Sand Dune"],
+    "answer": "B) Mountain Range"
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "What is the physical equipment of a computer system, like the keyboard, mouse, and screen, called?",
+    "options": ["A) Software", "B) Malware", "C) Hardware", "D) Firmware"],
+    "answer": "C) Hardware"
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "What do the letters 'WWW' usually stand for at the beginning of a website link?",
+    "options": ["A) World Wide Web", "B) Western Web Wire", "C) Wireless Web Window", "D) Wide World Working"],
+    "answer": "A) World Wide Web"
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "What is the general term for software designed to damage or gain unauthorized access to a computer?",
+    "options": ["A) Firewall", "B) Malware", "C) Firmware", "D) Operating System"],
+    "answer": "B) Malware"
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "Which of the following acts as the 'brain' of a computer, performing calculations and running programs?",
+    "options": ["A) RAM", "B) Hard Drive", "C) CPU", "D) Power Supply"],
+    "answer": "C) CPU"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "What is the first rough, experimental model of a machine or invention built for testing called?",
+    "options": ["A) Final Product", "B) Blueprint", "C) Prototype", "D) Schematic"],
+    "answer": "C) Prototype"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "Civil engineers use a 'retaining wall' primarily to do what task?",
+    "options": ["A) Support a roof", "B) Hold back soil or water", "C) Direct traffic flow", "D) Generate electricity"],
+    "answer": "B) Hold back soil"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "Which simple machine consists of a slanted surface used to make lifting heavy objects easier?",
+    "options": ["A) Inclined Plane", "B) Lever", "C) Wheel and Axle", "D) Screw"],
+    "answer": "A) Inclined Plane"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "Why do engineers use triangular frames (trusses) instead of squares when building sturdy roofs and cranes?",
+    "options": ["A) Triangles use less material", "B) Triangles are much more rigid and resist changing shape under load", "C) Triangles look prettier", "D) Triangles allow wind to pass through easier"],
+    "answer": "B) Triangles are much more rigid and resist changing shape under load"
+  },
+  {
+    "subject": "ARTS",
+    "question": "In a theatrical play, what is the term for the written text that includes the characters' lines and stage directions?",
+    "options": ["A) Novel", "B) Script", "C) Lyric", "D) Score"],
+    "answer": "B) Script"
+  },
+  {
+    "subject": "ARTS",
+    "question": "What type of sculpture is made by shaping clay or wax into a form, rather than carving it out of stone or wood?",
+    "options": ["A) Subtractive Sculpture", "B) Modeling / Additive Sculpture", "C) Origami", "D) Mosaic"],
+    "answer": "B) Modeling / Additive Sculpture"
+  },
+  {
+    "subject": "ARTS",
+    "question": "What is the musical term for two or more different notes played or sung at the exact same time to create a pleasing sound?",
+    "options": ["A) Solo", "B) Rhythm", "C) Harmony", "D) Staccato"],
+    "answer": "C) Harmony"
+  },
+  {
+    "subject": "MATH",
+    "question": "What is the statistical term for the average of a set of numbers (found by adding them all together and dividing by the count)?",
+    "options": ["A) Median", "B) Mode", "C) Mean", "D) Range"],
+    "answer": "C) Mean"
+  },
+  {
+    "subject": "MATH",
+    "question": "What do you call a fraction where the numerator (top number) is larger than or equal to the denominator (bottom number)?",
+    "options": ["A) Mixed Number", "B) Improper Fraction", "C) Proper Fraction", "D) Decimal Fraction"],
+    "answer": "B) Improper Fraction"
+  },
+  {
+    "subject": "MATH",
+    "question": "How many total degrees are there if you add up all three internal angles of any triangle?",
+    "options": ["A) 90 degrees", "B) 180 degrees", "C) 360 degrees", "D) 450 degrees"],
+    "answer": "B) 180 degrees"
+  },
+  {
+    "subject": "MATH",
+    "question": "What is the geometric term for a solid 3D shape that looks exactly like a perfectly round ball?",
+    "options": ["A) Cylinder", "B) Cone", "C) Sphere", "D) Cube"],
+    "answer": "C) Sphere"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is the name of the closest star to planet Earth?",
+    "options": ["A) Alpha Centauri", "B) Polaris (The North Star)", "C) The Sun", "D) Sirius"],
+    "answer": "C) The Sun"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What type of animal is born in the water with gills, but develops lungs and can live on both water and land as an adult?",
+    "options": ["A) Reptiles", "B) Amphibians", "C) Mammals", "D) Fish"],
+    "answer": "B) Amphibians"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is the freezing point of pure water on the Celsius scale?",
+    "options": ["A) 32°C", "B) 0°C", "C) 100°C", "D) -12°C"],
+    "answer": "B) 0°C"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is the boiling point of pure water at sea level on the Celsius scale?",
+    "options": ["A) 212°C", "B) 50°C", "C) 100°C", "D) 180°C"],
+    "answer": "C) 100°C"
+  },
+  {
+    "subject": "MATH",
+    "question": "If a recipe requires 1/2 cup of flour and you only have a 1/4 measuring cup, how many times do you need to fill it to get the right amount?",
+    "options": ["A) 2 times", "B) 3 times", "C) 4 times", "D) 1 time"],
+    "answer": "A) 2 times. 1/4 + 1/4 = 2/4 = 1/2"
+  },
+  [
+  {
+    "subject": "SCIENCE",
+    "question": "What is the largest organ in the human body?",
+    "options": ["A) Heart", "B) Brain", "C) Skin", "D) Liver"],
+    "answer": "C) Skin"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which planet is known as the 'Red Planet'?",
+    "options": ["A) Venus", "B) Mars", "C) Jupiter", "D) Mercury"],
+    "answer": "B) Mars"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What gas do humans breathe in that is essential for survival?",
+    "options": ["A) Carbon Dioxide", "B) Nitrogen", "C) Oxygen", "D) Helium"],
+    "answer": "C) Oxygen"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which phase of the Moon occurs when the entire face is illuminated as seen from Earth?",
+    "options": ["A) New Moon", "B) Crescent Moon", "C) Full Moon", "D) Quarter Moon"],
+    "answer": "C) Full Moon"
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "Which file type is commonly used to save a document created in Microsoft Word?",
+    "options": ["A) .jpg", "B) .mp3", "C) .docx", "D) .png"],
+    "answer": "C) .docx"
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "What does 'Wi-Fi' allow devices to do?",
+    "options": ["A) Print documents", "B) Connect wirelessly to a network", "C) Charge batteries", "D) Store files permanently"],
+    "answer": "B) Connect wirelessly to a network"
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "Which programming concept uses 'if' statements to make decisions?",
+    "options": ["A) Loop", "B) Variable", "C) Conditional", "D) Function"],
+    "answer": "C) Conditional"
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "What does 'AI' stand for?",
+    "options": ["A) Automated Internet", "B) Artificial Intelligence", "C) Advanced Interface", "D) Automatic Input"],
+    "answer": "B) Artificial Intelligence"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "Which simple machine is a bar that pivots around a fixed point?",
+    "options": ["A) Pulley", "B) Lever", "C) Screw", "D) Wedge"],
+    "answer": "B) Lever"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "What do engineers call the force that pulls objects downward toward Earth?",
+    "options": ["A) Gravity", "B) Magnetism", "C) Friction", "D) Tension"],
+    "answer": "A) Gravity"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "Which material is commonly reinforced with steel bars to make stronger buildings and bridges?",
+    "options": ["A) Glass", "B) Concrete", "C) Plastic", "D) Wood"],
+    "answer": "B) Concrete"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "What is the purpose of gears in a machine?",
+    "options": ["A) Produce electricity", "B) Change speed or direction of motion", "C) Store energy", "D) Reduce weight"],
+    "answer": "B) Change speed or direction of motion"
+  },
+  {
+    "subject": "ARTS",
+    "question": "Which family of musical instruments includes the violin and cello?",
+    "options": ["A) Brass", "B) Woodwind", "C) String", "D) Percussion"],
+    "answer": "C) String"
+  },
+  {
+    "subject": "ARTS",
+    "question": "What are the primary colors in traditional painting?",
+    "options": ["A) Red, Yellow, Blue", "B) Red, Green, Blue", "C) Cyan, Magenta, Yellow", "D) Orange, Purple, Green"],
+    "answer": "A) Red, Yellow, Blue"
+  },
+  {
+    "subject": "ARTS",
+    "question": "What is the name of a repeating pattern of beats in music?",
+    "options": ["A) Rhythm", "B) Pitch", "C) Harmony", "D) Tone"],
+    "answer": "A) Rhythm"
+  },
+  {
+    "subject": "ARTS",
+    "question": "Which art tool is commonly used to blend colored pencil or charcoal?",
+    "options": ["A) Compass", "B) Blending Stump", "C) Protractor", "D) Palette Knife"],
+    "answer": "B) Blending Stump"
+  },
+  {
+    "subject": "MATH",
+    "question": "What is the value of π (pi) rounded to two decimal places?",
+    "options": ["A) 2.14", "B) 3.14", "C) 4.13", "D) 3.41"],
+    "answer": "B) 3.14"
+  },
+  {
+    "subject": "MATH",
+    "question": "What is 25% of 80?",
+    "options": ["A) 15", "B) 20", "C) 25", "D) 30"],
+    "answer": "B) 20"
+  },
+  {
+    "subject": "MATH",
+    "question": "Which number is a prime number?",
+    "options": ["A) 21", "B) 27", "C) 29", "D) 33"],
+    "answer": "C) 29"
+  },
+  {
+    "subject": "MATH",
+    "question": "How many faces does a cube have?",
+    "options": ["A) 4", "B) 6", "C) 8", "D) 12"],
+    "answer": "B) 6"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which blood cells help your body fight infections?",
+    "options": ["A) Red Blood Cells", "B) White Blood Cells", "C) Platelets", "D) Plasma"],
+    "answer": "B) White Blood Cells"
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "Which of these is an example of cloud storage?",
+    "options": ["A) Flash Drive", "B) Google Drive", "C) DVD", "D) Hard Disk"],
+    "answer": "B) Google Drive"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "Why are arches commonly used in bridges?",
+    "options": ["A) They are easier to paint", "B) They distribute weight efficiently", "C) They float on water", "D) They reduce wind resistance"],
+    "answer": "B) They distribute weight efficiently"
+  },
+  {
+    "subject": "ARTS",
+    "question": "What is the term for artwork made by arranging small colored pieces of glass or stone into a picture?",
+    "options": ["A) Collage", "B) Mosaic", "C) Fresco", "D) Etching"],
+    "answer": "B) Mosaic"
+  },
+  {
+    "subject": "MATH",
+    "question": "A rectangle has a length of 8 cm and a width of 5 cm. What is its area?",
+    "options": ["A) 13 cm²", "B) 26 cm²", "C) 40 cm²", "D) 80 cm²"],
+    "answer": "C) 40 cm²"
+  }
+]
+]

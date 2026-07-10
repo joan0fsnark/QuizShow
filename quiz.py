@@ -8,7 +8,7 @@ class QuizShowApp:
     def __init__(self, root):
         self.root = root
         self.root.title("STEAM Quiz Show Dashboard")
-        self.root.geometry("1024x755")  # Slightly taller to give buttons extra breathing room
+        self.root.geometry("1024x755")
         self.root.configure(bg="#2c3e50")
 
         # UI Styling Colors
@@ -28,6 +28,9 @@ class QuizShowApp:
         self.team_colors = {}
         self.shuffled_options = []
         self.question_revealed = False
+
+        # --- NEW STATE VARIABLE FOR HISTORY TRACKING ---
+        self.game_history = []
 
         self.load_questions()
         self.show_setup_screen()
@@ -181,11 +184,20 @@ class QuizShowApp:
         self.score_bars = tk.Frame(self.score_frame, bg=self.bg_dark)
         self.score_bars.pack(fill="x")
 
+    def save_state_to_history(self):
+        """Saves a clean deep copy of current scores and status before any changes occur."""
+        snapshot = {
+            "current_idx": self.current_idx,
+            "scores": self.scores.copy(),
+            "question_revealed": self.question_revealed,
+            "shuffled_options": self.shuffled_options.copy()
+        }
+        self.game_history.append(snapshot)
+
     def prepare_next_turn(self):
         self.question_revealed = False
         self.ans_label.config(text="")
 
-        # 1. Update top banner and kick off the dynamic flashing effect
         if self.current_idx < len(self.questions):
             next_subject = self.questions[self.current_idx].get('subject', 'GENERAL').upper()
             self.subject_label.config(text=f"UPCOMING CATEGORY: {next_subject}")
@@ -193,7 +205,6 @@ class QuizShowApp:
         else:
             self.subject_label.config(text="GAME STATUS: COMPLETING MATCH", fg="#3498db")
 
-        # 2. DYNAMIC TEXT SELECTOR: Checks if this is the absolute start of the game
         if self.current_idx == 0:
             cinematic_text = (
                 "WELCOME TO THE SHOW\n"
@@ -209,66 +220,55 @@ class QuizShowApp:
                 "Eyes on the screen!"
             )
 
-        # Apply the clean cinematic configurations
-        self.q_text.config(
-            text=cinematic_text,
-            font=("Helvetica Neue", 20, "bold"),
-            fg="#95a5a6",
-            wraplength=800
-        )
+        self.q_text.config(text=cinematic_text, font=("Helvetica Neue", 20, "bold"), fg="#95a5a6", wraplength=800)
 
-        # 3. Clear options safely
         for lbl in self.opt_labels:
             lbl.config(text="", bg="#2c3e50", relief="flat")
 
-        # 4. Turn off answer buttons during intermissions
         self.reveal_btn.config(bg="#34495e", fg="#7f8c8d", cursor="arrow")
-
-        # 5. Refresh panels
         self.refresh_host_panel()
         self.refresh_score_display()
 
     def flash_category_header(self, count, color_state):
-        """Alternates text colors smoothly at a slower, rhythmic pace."""
-        # If the user already advanced the question, stop flashing instantly
         if self.question_revealed:
             return
-
-        # Flash sequence length limit (4 full off-on cycles)
         if count < 8:
             if color_state:
-                self.subject_label.config(fg="#f1c40f")  # Vivid Highlight Yellow
+                self.subject_label.config(fg="#f1c40f")
             else:
-                self.subject_label.config(fg="#2c3e50")  # Blends into slate background (Off state)
-
-            # FIXED: Bumped from 250ms to 500ms for a slower, cleaner pulse
+                self.subject_label.config(fg="#2c3e50")
             self.root.after(500, lambda: self.flash_category_header(count + 1, not color_state))
         else:
-            # Lock permanently into the bright yellow highlight once flashing finishes
             self.subject_label.config(fg="#f1c40f")
 
-    def display_current_question(self):
+    def display_current_question(self, from_undo=False):
         if self.current_idx >= len(self.questions):
             self.trigger_game_over()
             return
+
+        # Only log history if expanding forward, not rewinding back into it
+        if not from_undo:
+            self.save_state_to_history()
 
         current_q = self.questions[self.current_idx]
         self.question_revealed = True
 
         self.reveal_btn.config(bg="#f1c40f", fg="black", cursor="hand2")
-        self.subject_label.config(text=f"SUBJECT: {current_q.get('subject', 'GENERAL').upper()}")
-        self.q_text.config(text=current_q.get("question", ""), fg=self.text_light)
+        self.subject_label.config(text=f"SUBJECT: {current_q.get('subject', 'GENERAL').upper()}", fg="#3498db")
+        self.q_text.config(text=current_q.get("question", ""), font=("Arial", 22, "bold"), fg=self.text_light)
 
-        raw_opts = []
-        for opt in current_q["options"]:
-            clean_opt = str(opt).strip()
-            if len(clean_opt) > 2 and (clean_opt[1] in [")", "."] or clean_opt[2] in [")", "."]):
-                clean_opt = clean_opt.split(")", 1)[-1].split(".", 1)[-1].strip()
-            raw_opts.append(clean_opt)
-        random.shuffle(raw_opts)
+        # If we didn't just rebuild this card from an undo state, generate a fresh option shuffle
+        if not from_undo:
+            raw_opts = []
+            for opt in current_q["options"]:
+                clean_opt = str(opt).strip()
+                if len(clean_opt) > 2 and (clean_opt[1] in [")", "."] or clean_opt[2] in [")", "."]):
+                    clean_opt = clean_opt.split(")", 1)[-1].split(".", 1)[-1].strip()
+                raw_opts.append(clean_opt)
+            random.shuffle(raw_opts)
 
-        letters = ["A)", "B)", "C)", "D)"]
-        self.shuffled_options = [f"{letters[i]} {raw_opts[i]}" for i in range(len(raw_opts))]
+            letters = ["A)", "B)", "C)", "D)"]
+            self.shuffled_options = [f"{letters[i]} {raw_opts[i]}" for i in range(len(raw_opts))]
 
         for i, lbl in enumerate(self.opt_labels):
             if i < len(self.shuffled_options):
@@ -282,15 +282,34 @@ class QuizShowApp:
         for widget in self.btn_container.winfo_children():
             widget.destroy()
 
+        # Create an extra grid column boundary to house the Undo option safely
+        col_count = len(self.scores) + 2 if self.question_revealed else 2
+        self.btn_container.grid_columnconfigure(list(range(col_count)), weight=1)
+
         if not self.question_revealed:
-            next_btn = tk.Label(self.btn_container, text="NEXT QUESTION: ADVANCE WHEN READY", font=("Arial", 13, "bold"), bg="#2ecc71",
+            self.sep_lbl.config(text="HOST PANEL: ADVANCE WHEN READY")
+
+            # Left side: Next Question
+            next_btn = tk.Label(self.btn_container, text="▶️ NEXT QUESTION", font=("Arial", 13, "bold"), bg="#2ecc71",
                                 fg="black", cursor="hand2", bd=1, relief="raised", pady=10)
-            next_btn.pack(fill="x", pady=5)
+            next_btn.grid(row=0, column=0, padx=(0, 4), pady=5, sticky="ew")
             next_btn.bind("<Button-1>", lambda e: self.display_current_question())
+
+            # Right side: Undo button (toggled dynamic visual appearance based on availability)
+            undo_bg = "#34495e" if self.game_history else "#1e272e"
+            undo_fg = "#95a5a6" if self.game_history else "#57606f"
+            undo_cursor = "hand2" if self.game_history else "arrow"
+
+            undo_btn = tk.Label(self.btn_container, text="⏪ UNDO", font=("Arial", 13, "bold"), bg=undo_bg, fg=undo_fg,
+                                cursor=undo_cursor, bd=1, relief="raised", pady=10)
+            undo_btn.grid(row=0, column=1, padx=(4, 0), pady=5, sticky="ew")
+            if self.game_history:
+                undo_btn.bind("<Button-1>", lambda e: self.trigger_undo_rewind())
+
         else:
             self.sep_lbl.config(text="HOST PANEL: CLICK WHO BUZZED IN FIRST")
-            self.btn_container.grid_columnconfigure(list(range(len(self.scores) + 1)), weight=1)
 
+            # Team buzzer click rows
             for i, team in enumerate(self.scores.keys()):
                 bg_hex = self.team_colors[team]
                 fg_color = "black" if "Yellow" in team else "white"
@@ -300,23 +319,49 @@ class QuizShowApp:
                 btn.grid(row=0, column=i, padx=4, pady=5, sticky="ew")
                 btn.bind("<Button-1>", lambda e, t=team: self.award_points(t))
 
+            # Skip Question Column Button
             skip_btn = tk.Label(self.btn_container, text="❌ Skip Q", font=("Arial", 11, "bold"), bg="#95a5a6",
                                 fg="black", cursor="hand2", bd=1, relief="raised", pady=10)
             skip_btn.grid(row=0, column=len(self.scores), padx=4, pady=5, sticky="ew")
             skip_btn.bind("<Button-1>", lambda e: self.skip_question())
 
+            # Undo active question back to intermission card
+            undo_btn = tk.Label(self.btn_container, text="⏪ Undo", font=("Arial", 11, "bold"), bg="#34495e",
+                                fg="#ecf0f1", cursor="hand2", bd=1, relief="raised", pady=10)
+            undo_btn.grid(row=0, column=len(self.scores) + 1, padx=4, pady=5, sticky="ew")
+            undo_btn.bind("<Button-1>", lambda e: self.trigger_undo_rewind())
+
     def award_points(self, team):
+        self.save_state_to_history()
         self.scores[team] += 1
         self.current_idx += 1
         self.prepare_next_turn()
 
     def skip_question(self):
+        self.save_state_to_history()
         self.current_idx += 1
         self.prepare_next_turn()
 
+    def trigger_undo_rewind(self):
+        """Pops the last stored snapshot out of history and forces a full game state restore."""
+        if not self.game_history:
+            return
+
+        previous_state = self.game_history.pop()
+
+        self.current_idx = previous_state["current_idx"]
+        self.scores = previous_state["scores"]
+        self.shuffled_options = previous_state["shuffled_options"]
+        target_revelation = previous_state["question_revealed"]
+
+        # Route rendering loops elegantly depending on what type of screen we are restoring
+        if target_revelation:
+            self.display_current_question(from_undo=True)
+        else:
+            self.prepare_next_turn()
+
     def change_score_manually(self, team, amount):
-        """Changes a team's score without advancing the game state."""
-        self.scores[team] = max(0, self.scores[team] + amount)  # Prevents negative scores
+        self.scores[team] = max(0, self.scores[team] + amount)
         self.refresh_score_display()
 
     def reveal_answer(self):
@@ -332,23 +377,19 @@ class QuizShowApp:
         for i, (team, score) in enumerate(self.scores.items()):
             team_color = self.team_colors[team]
 
-            # Outer container frame for this team's column
             card_container = tk.Frame(self.score_bars, bg=self.bg_dark)
             card_container.grid(row=0, column=i, padx=8, sticky="ew")
             card_container.grid_columnconfigure((0, 1), weight=1)
 
-            # 1. Main Score Card Block (Looks like the old prominent button layout)
             card = tk.Label(card_container, text=f"{team}\n{score} pts", font=("Arial", 12, "bold"), bg="#34495e",
                             fg=team_color, bd=1, relief="solid", pady=8)
             card.grid(row=0, column=0, columnspan=2, sticky="ew", pady=(0, 4))
 
-            # 2. Subtle, low-contrast manual adjustments tucked right underneath
             minus_btn = tk.Label(card_container, text="−", font=("Arial", 9, "bold"), bg="#34495e", fg="#95a5a6",
                                  cursor="hand2", bd=1, relief="flat", width=4)
             minus_btn.grid(row=1, column=0, padx=(0, 2), sticky="e")
             minus_btn.bind("<Button-1>", lambda e, t=team: self.change_score_manually(t, -1))
 
-            # Tiny hover effect to make them discoverable without being flashy
             minus_btn.bind("<Enter>", lambda e, w=minus_btn: w.config(bg="#e74c3c", fg="white"))
             minus_btn.bind("<Leave>", lambda e, w=minus_btn: w.config(bg="#34495e", fg="#95a5a6"))
 

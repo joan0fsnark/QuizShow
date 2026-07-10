@@ -18,11 +18,30 @@ st.markdown(
             color: #ecf0f1 !important;
             font-family: 'Arial', sans-serif !important;
         }
-        /* Style secondary elements */
         .stCaption {
             color: #3498db !important;
             font-size: 16px !important;
             font-weight: bold !important;
+        }
+
+        /* Direct HTML Button Styling overrides for Classroom Buzzers */
+        .buzzer-link {
+            display: block;
+            text-align: center;
+            padding: 12px 6px;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 15px;
+            text-decoration: none !important;
+            box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+            transition: transform 0.1s ease;
+        }
+        .buzzer-link:hover {
+            transform: scale(1.03);
+            color: inherit;
+        }
+        .buzzer-link:active {
+            transform: scale(0.98);
         }
     </style>
     """,
@@ -62,7 +81,6 @@ if "questions" not in st.session_state:
     st.session_state.reveal_pressed = False
     st.session_state.shuffled_options = []
 
-# Hex color mappings from your original COLOR_LIBRARY
 COLOR_LIBRARY = {
     "Red": "#e74c3c",
     "Orange": "#e67e22",
@@ -73,7 +91,31 @@ COLOR_LIBRARY = {
 }
 
 # ---------------------------------------------------------
-# STEP 3: SCREEN 1 - SETUP SCREEN
+# STEP 3: INTERCEPT WEB BUZZER CLICKS
+# ---------------------------------------------------------
+# We capture custom link actions via URL parameters to respond instantly on click
+query_params = st.query_params
+if "action" in query_params:
+    action_target = query_params["action"]
+    # Clear parameter so it doesn't trigger repeatedly on refresh
+    st.query_params.clear()
+
+    if action_target == "skip":
+        st.session_state.current_idx += 1
+        st.session_state.reveal_pressed = False
+        st.session_state.shuffled_options = []
+        st.rerun()
+    elif action_target.startswith("award_"):
+        clicked_team = action_target.replace("award_", "").replace("_", " ")
+        if clicked_team in st.session_state.scores:
+            st.session_state.scores[clicked_team] += 1
+        st.session_state.current_idx += 1
+        st.session_state.reveal_pressed = False
+        st.session_state.shuffled_options = []
+        st.rerun()
+
+# ---------------------------------------------------------
+# STEP 4: SCREEN 1 - SETUP SCREEN
 # ---------------------------------------------------------
 if not st.session_state.setup_complete:
     st.markdown("<h1 style='text-align: center; color: #f1c40f !important;'>GAME SHOW SETUP</h1>",
@@ -103,7 +145,7 @@ if not st.session_state.setup_complete:
             st.rerun()
 
 # ---------------------------------------------------------
-# STEP 4: SCREEN 2 - GAMEPLAY DASHBOARD
+# STEP 5: SCREEN 2 - GAMEPLAY DASHBOARD
 # ---------------------------------------------------------
 else:
     questions = st.session_state.questions
@@ -141,10 +183,9 @@ else:
             letters = ["A)", "B)", "C)", "D)"]
             st.session_state.shuffled_options = [f"{letters[i]}  {raw_opts[i]}" for i in range(len(raw_opts))]
 
-        # Subject Banner
         st.caption(f"SUBJECT: {current_q.get('subject', 'GENERAL')}")
 
-        # Locked-Size HTML Question Display Box (Exactly matched to Tkinter look)
+        # Locked-Size HTML Question Display Box
         st.markdown(
             f"""
             <div style="background-color: #34495e; padding: 20px; border-radius: 6px; border: 2px solid #415b76; min-height: 120px; display: flex; align-items: center; justify-content: center; margin-bottom: 10px;">
@@ -156,7 +197,7 @@ else:
             unsafe_allow_html=True
         )
 
-        # High-Visibility Vertical Options Grid (Matching the Dark #1e272e Option Box layout)
+        # High-Visibility Options Grid
         opts = st.session_state.shuffled_options
         col1, col2 = st.columns(2)
 
@@ -180,7 +221,7 @@ else:
 
         st.write("")
 
-        # Reveal Answer Section (Uses Custom Yellow Banner Styling)
+        # Reveal Answer Section
         if st.button("👀 REVEAL CORRECT ANSWER", use_container_width=True):
             st.session_state.reveal_pressed = True
 
@@ -199,7 +240,7 @@ else:
         # Host Control Panel Frame Header
         st.markdown(
             """
-            <div style="border-bottom: 1px solid #bdc3c7; margin-top: 20px; margin-bottom: 10px;">
+            <div style="border-bottom: 1px solid #bdc3c7; margin-top: 20px; margin-bottom: 15px;">
                 <p style="margin: 0; font-size: 14px; font-weight: bold; color: #bdc3c7 !important; letter-spacing: 1px;">
                     HOST PANEL: CLICK WHO BUZZED IN FIRST
                 </p>
@@ -208,59 +249,40 @@ else:
             unsafe_allow_html=True
         )
 
-        # Generate Host Buzz-In Action Layout with fully colored native web buttons
         host_cols = st.columns(len(st.session_state.scores) + 1)
 
         for i, team in enumerate(st.session_state.scores.keys()):
             team_color_hex = st.session_state.team_colors[team]
-            text_color = "black" if "Yellow" in team else "white"
+            # UPDATED: Force all button text to be highly visible black for readability
+            text_color = "#000000"
+            url_safe_team = team.replace(" ", "_")
 
             with host_cols[i]:
-                # Dynamic HTML button injection injection handles beautiful system coloring flawlessly on Web/Mac
-                button_html = f"""
-                <style>
-                    div[data-testid="stHorizontalBlock"] button[key="btn_{team}"] {{
-                        background-color: {team_color_hex} !important;
-                        color: {text_color} !important;
-                        font-weight: bold !important;
-                        border: none !important;
-                    }}
-                </style>
-                """
-                st.markdown(button_html, unsafe_allow_html=True)
-
-                if st.button(f"🚨 {team}", key=f"btn_{team}", use_container_width=True):
-                    st.session_state.scores[team] += 1
-                    st.session_state.current_idx += 1
-                    st.session_state.reveal_pressed = False
-                    st.session_state.shuffled_options = []
-                    st.rerun()
+                st.markdown(
+                    f"""
+                            <a href="?action=award_{url_safe_team}" target="_self" class="buzzer-link" 
+                               style="background-color: {team_color_hex}; color: {text_color} !important;">
+                               🚨 {team}
+                            </a>
+                            """,
+                    unsafe_allow_html=True
+                )
 
         with host_cols[-1]:
-            # Styled Skip Button
             st.markdown(
                 """
-                <style>
-                    div[data-testid="stHorizontalBlock"] button[key="skip_btn"] {
-                        background-color: #95a5a6 !important;
-                        color: black !important;
-                        font-weight: bold !important;
-                        border: none !important;
-                    }
-                </style>
+                <a href="?action=skip" target="_self" class="buzzer-link" 
+                   style="background-color: #95a5a6; color: #000000 !important;">
+                   ❌ Skip Q
+                </a>
                 """,
                 unsafe_allow_html=True
             )
-            if st.button("❌ Skip Q", key="skip_btn", use_container_width=True):
-                st.session_state.current_idx += 1
-                st.session_state.reveal_pressed = False
-                st.session_state.shuffled_options = []
-                st.rerun()
 
-        # Leaderboard Section at Bottom matching Tkinter framework layout
+        # Leaderboard Section
         st.markdown(
             """
-            <div style="border-bottom: 1px solid #bdc3c7; margin-top: 30px; margin-bottom: 15px;">
+            <div style="border-bottom: 1px solid #bdc3c7; margin-top: 35px; margin-bottom: 15px;">
                 <p style="margin: 0; font-size: 14px; font-weight: bold; color: #bdc3c7 !important; letter-spacing: 1px;">
                     CURRENT SCORES (1 POINT PER CORRECT ANSWER)
                 </p>

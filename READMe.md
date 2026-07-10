@@ -47,6 +47,8 @@ Follow these steps to smoothly launch, configure, and host the STEAM Quiz Show i
     ```bash
     python3 quiz.py
    
+---
+   
 ### Startup Configuration:
 The Game Show Setup window will appear first.
 
@@ -69,4 +71,29 @@ Project this dashboard onto your classroom smartboard or projector screen for ma
 
 → Incorrect / Stalled: If they miss it, you can open the floor to another group, or click the gray ```❌ Skip Q``` button to wipe the question and move forward without shifting any scores.
 
-→ Revealing Answers: If a question completely stumps the room, click the yellow ```👀 REVEAL CORRECT ANSWER``` label to instantly flash the precise solution right below it in green text.  
+→ Revealing Answers: If a question completely stumps the room, click the yellow ```👀 REVEAL CORRECT ANSWER``` label to instantly flash the precise solution right below it in green text.
+
+**Crowning the Champion**
+The background system automatically tracks your total question pool. Once the final question entry from your ```questions.json``` file is played, the game board freezes and pops open a dedicated Game Over! summary card. It tallies all results, breaks down potential ties, and announces your grand champion team for the day!
+
+---
+
+### 📝 Customizing the Questions Pool
+
+You can easily modify the game content, update answers, or change subjects without touching any Python code.
+
+**1. Editing Existing Questions**
+
+To change a question, update an answer, or fix a typo, simply open the `questions.json` file in a text editor (like VS Code, Notepad, or TextEdit) and edit the text directly inside the matching dictionary keys (`subject`, `question`, `options`, `answer`).
+
+### 2. Loading a Whole New Question Set
+If you want to swap out your current trivia deck for a completely fresh topic (e.g., a "History Quiz" or a "Vocabulary Review"):
+1. Create a new JSON file formatted exactly like `questions.json` (a single array containing structured question dictionaries)[cite: 3]. 
+2. Save your new file inside the main project directory (e.g., `history_deck.json`).
+3. Open `quiz.py` and locate **Line 24**:
+   ```python
+   json_filename = "questions.json"
+4. Update "questions.json" to match your new file name:
+   ```python
+   json_filename = "history_deck.json"5. Save quiz.py and run your application normally!
+5. Save ```quiz.py``` and run the application as instructed above.

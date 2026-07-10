@@ -1,0 +1,25 @@
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Environments (if you ever use a virtual environment)
+.env
+.venv
+env/
+venv/
+ENV/
+
+# macOS system files (Prevents tracking folder view settings)
+.DS_Store
+
+# IDE and Editor configurations (PyCharm, VS Code, etc.)
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp

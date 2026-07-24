@@ -1,0 +1,299 @@
+[
+  {
+    "subject": "SCIENCE",
+    "question": "What common kitchen fruit is naturally slightly radioactive because it contains high levels of potassium-40?",
+    "options": [
+      "A) Banana",
+      "B) Apple",
+      "C) Orange",
+      "D) Strawberry"
+    ],
+    "answer": "A) Banana"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Although clouds look light and fluffy, roughly how much does an average cumulus cloud weigh?",
+    "options": [
+      "A) 1,000 pounds",
+      "B) 50,000 pounds",
+      "C) 1.1 million pounds",
+      "D) 50 million pounds"
+    ],
+    "answer": "C) 1.1 million pounds"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which of these prehistoric facts is true regarding the timeline of life on Earth?",
+    "options": [
+      "A) Sharks are older than trees",
+      "B) Trees are older than jellyfish",
+      "C) Dinosaurs existed before sharks",
+      "D) Grass existed before dinosaurs"
+    ],
+    "answer": "A) Sharks are older than trees"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What microscopic creature can survive extreme heat, freezing cold, intense radiation, and even the vacuum of outer space?",
+    "options": [
+      "A) Tardigrade (Water Bear)",
+      "B) Amoeba",
+      "C) Dust mite",
+      "D) Flea"
+    ],
+    "answer": "A) Tardigrade (Water Bear)"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Roughly how much would a single teaspoon of material from a collapsed neutron star weigh on Earth?",
+    "options": [
+      "A) 100 pounds",
+      "B) 5,000 pounds",
+      "C) 1 million pounds",
+      "D) 6 billion tons"
+    ],
+    "answer": "D) 6 billion tons"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which animal can slow its heart rate down and hold its breath underwater longer than a dolphin (up to 40 minutes)?",
+    "options": [
+      "A) Sloth",
+      "B) Beaver",
+      "C) Grizzly bear",
+      "D) Kangaroo"
+    ],
+    "answer": "A) Sloth"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What shape is a wombat's poop, which prevents it from rolling away off rocks and logs?",
+    "options": [
+      "A) Cube",
+      "B) Sphere",
+      "C) Pyramid",
+      "D) Cylinder"
+    ],
+    "answer": "A) Cube"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What strange astronomical feature makes a single day on Venus unique compared to its year?",
+    "options": [
+      "A) A day on Venus is longer than a year on Venus",
+      "B) Venus has 48 hours in a single day",
+      "C) Venus does not rotate at all",
+      "D) Venus spins ten times faster than Earth"
+    ],
+    "answer": "A) A day on Venus is longer than a year on Venus"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Roughly what percentage of human DNA is identical to the genetic code found in a banana?",
+    "options": [
+      "A) Around 60%",
+      "B) Around 10%",
+      "C) Less than 1%",
+      "D) 0%"
+    ],
+    "answer": "A) Around 60%"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What happens when a bolt of lightning strikes a sandy beach at extreme temperatures?",
+    "options": [
+      "A) It melts the sand into hollow glass tubes called fulgurites",
+      "B) It causes the sand to explode into dust",
+      "C) It turns the sand into solid gold",
+      "D) Nothing happens to the sand"
+    ],
+    "answer": "A) It melts the sand into hollow glass tubes called fulgurites"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What counterintuitive scientific phenomenon (the Mpemba effect) can happen under certain freezing conditions?",
+    "options": [
+      "A) Hot water can freeze faster than cold water",
+      "B) Ice can become hotter than boiling water",
+      "C) Saltwater freezes faster than fresh water",
+      "D) Water boils faster when frozen solid"
+    ],
+    "answer": "A) Hot water can freeze faster than cold water"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "How do forest trees secretly send nutrients, water, and warning signals to one another underground?",
+    "options": [
+      "A) Through a network of subterranean fungi ('Wood Wide Web')",
+      "B) Through underground electrical magnetic fields",
+      "C) Through deep underground water streams",
+      "D) Through burrowing earthworms"
+    ],
+    "answer": "A) Through a network of subterranean fungi ('Wood Wide Web')"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What acid in the human stomach is so powerful that it could dissolve small metal objects like razor blades or zinc coins?",
+    "options": [
+      "A) Hydrochloric acid",
+      "B) Citric acid",
+      "C) Acetic acid",
+      "D) Lactic acid"
+    ],
+    "answer": "A) Hydrochloric acid"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Under exact conditions of temperature and pressure, water can reach a point where it boils and freezes at the exact same time. What is this state called?",
+    "options": [
+      "A) The Triple Point",
+      "B) Absolute Zero",
+      "C) Equilibrium State",
+      "D) Thermal Shock"
+    ],
+    "answer": "A) The Triple Point"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "If you could mine all the precious gold stored in Earth's molten core, how much of it is there?",
+    "options": [
+      "A) Enough to cover the entire surface of Earth in a 1.5-foot layer",
+      "B) Enough to fill one Olympic swimming pool",
+      "C) Enough to cover one city block",
+      "D) Only a few small nuggets"
+    ],
+    "answer": "A) Enough to cover the entire surface of Earth in a 1.5-foot layer"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What common kitchen fruit is naturally slightly radioactive because it contains the isotope potassium-40?",
+    "options": [
+      "A) Banana",
+      "B) Apple",
+      "C) Orange",
+      "D) Strawberry"
+    ],
+    "answer": "A) Banana",
+    "info": "Don't panic—bananas are totally safe! The tiny amount of radiation from potassium-40 is so microscopic that you would need to eat 10 million bananas at once to get radiation sickness."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "According to the fossil record, which ancient creatures existed long before the first trees appeared on Earth?",
+    "options": [
+      "A) Sharks",
+      "B) Dinosaurs",
+      "C) Birds",
+      "D) Grass"
+    ],
+    "answer": "A) Sharks",
+    "info": "Sharks are evolutionary survivors! Fossil evidence shows sharks swam in the oceans around 450 million years ago, while the earliest trees didn't evolve until roughly 350 million years ago."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which microscopic creature can survive extreme dehydration, radiation, freezing space temperatures, and the vacuum of outer space?",
+    "options": [
+      "A) Tardigrade (Water Bear)",
+      "B) Amoeba",
+      "C) Dust mite",
+      "D) Flea"
+    ],
+    "answer": "A) Tardigrade (Water Bear)",
+    "info": "Tardigrades are the ultimate survivors! When conditions get tough, they curl into a dried-up ball called a 'tun' and hit pause on their metabolism until conditions improve."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Because a collapsed neutron star is packed so densely, roughly how much would a single teaspoon of its material weigh on Earth?",
+    "options": [
+      "A) 100 pounds",
+      "B) 5,000 pounds",
+      "C) 1 million pounds",
+      "D) 6 billion tons"
+    ],
+    "answer": "D) 6 billion tons",
+    "info": "Neutron stars are so dense that an entire star's worth of mass gets squished into a ball the size of a city—making a single spoonful weigh as much as Mount Everest!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What unusual orbital property makes a single axial rotation (day) on Venus unique compared to its revolution (year)?",
+    "options": [
+      "A) A day on Venus is longer than a year on Venus",
+      "B) Venus has 48 hours in a single day",
+      "C) Venus does not rotate at all",
+      "D) Venus spins ten times faster than Earth"
+    ],
+    "answer": "A) A day on Venus is longer than a year on Venus",
+    "info": "Venus spins super slowly on its axis, taking 243 Earth days to complete one rotation. However, it only takes 225 Earth days to orbit the Sun—meaning a single day on Venus is longer than its year!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Roughly what percentage of human DNA is identical to the genetic code found in a banana?",
+    "options": [
+      "A) Around 60%",
+      "B) Around 10%",
+      "C) Less than 1%",
+      "D) 0%"
+    ],
+    "answer": "A) Around 60%",
+    "info": "Even though we look completely different, all living things share basic cellular machinery—so about 60% of our genes perform the exact same basic biological functions as a banana's genes!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "When a high-voltage lightning strike hits sandy soil at extreme temperatures, what hollow glass structures can form?",
+    "options": [
+      "A) Fulgurites",
+      "B) Geodes",
+      "C) Diamonds",
+      "D) Obsidian"
+    ],
+    "answer": "A) Fulgurites",
+    "info": "Lightning burns hotter than the surface of the Sun! When it hits sand, it instantly melts quartz grains together into hollow glass tubes called fulgurites, or 'petrified lightning'."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What counterintuitive thermodynamic phenomenon—known as the Mpemba effect—can happen under specific freezing conditions?",
+    "options": [
+      "A) Hot water can freeze faster than cold water",
+      "B) Ice can become hotter than boiling water",
+      "C) Saltwater freezes faster than fresh water",
+      "D) Water boils faster when frozen solid"
+    ],
+    "answer": "A) Hot water can freeze faster than cold water",
+    "info": "It sounds backwards, but under certain conditions, warm water evaporates rapidly and changes convection currents, which can sometimes allow it to reach the freezing point faster than cold water!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What powerful chemical acid in your digestive tract is strong enough to dissolve zinc coins or small metal objects?",
+    "options": [
+      "A) Hydrochloric acid",
+      "B) Citric acid",
+      "C) Acetic acid",
+      "D) Lactic acid"
+    ],
+    "answer": "A) Hydrochloric acid",
+    "info": "Your stomach produces hydrochloric acid with a pH around 1.5 to 2.0 to break down food! To prevent digestion of your own internal organs, your stomach lining secretes a thick protective coat of mucus."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Under exact atmospheric pressure and temperature conditions, liquid water, ice, and steam can coexist at the same time. What is this thermodynamic state called?",
+    "options": [
+      "A) The Triple Point",
+      "B) Absolute Zero",
+      "C) Equilibrium State",
+      "D) Thermal Shock"
+    ],
+    "answer": "A) The Triple Point",
+    "info": "At the triple point (0.01°C and 0.006 atm of pressure), water hits a perfect balance where liquid water boils and turns into ice and vapor all at the exact same moment!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "If scientists could extract all the precious heavy metals stored inside Earth's liquid metallic core, how much gold would it yield?",
+    "options": [
+      "A) Enough to coat the entire Earth's surface in a 1.5-foot deep layer",
+      "B) Enough to fill one Olympic swimming pool",
+      "C) Enough to cover one city block",
+      "D) Only a few small nuggets"
+    ],
+    "answer": "A) Enough to coat the entire Earth's surface in a 1.5-foot deep layer",
+    "info": "When Earth was a molten infant planet billions of years ago, heavy elements like gold and platinum sank right down to the center. There is enough gold locked in Earth's core to cover the whole globe up to your knees!"
+  }
+]

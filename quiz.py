@@ -37,7 +37,7 @@ class QuizShowApp:
 
     def load_questions(self):
         try:
-            with open("questions.json", "r", encoding="utf-8") as file:
+            with open("q-general.json", "r", encoding="utf-8") as file:
                 data = json.load(file)
                 self.questions = []
 
@@ -54,7 +54,7 @@ class QuizShowApp:
                 print(f"🎉 Successfully loaded {len(self.questions)} questions total.")
 
         except Exception as e:
-            messagebox.showerror("Error", f"Could not load questions.json:\n{e}")
+            messagebox.showerror("Error", f"Could not load q-general.json:\n{e}")
             self.root.destroy()
 
     def show_setup_screen(self):

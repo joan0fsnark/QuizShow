@@ -1,0 +1,985 @@
+[
+  {
+    "subject": "SCIENCE",
+    "question": "What type of hard outer skeleton protects the bodies of insects, spiders, and crabs?",
+    "options": [
+      "A) Endoskeleton",
+      "B) Exoskeleton",
+      "C) Hydrostatic skeleton",
+      "D) Axial skeleton"
+    ],
+    "answer": "B) Exoskeleton",
+    "info": "An exoskeleton is basically a suit of real-life body armor! Because it can't stretch, growing creatures like lobsters and spiders must regularly shed their old suit in a tricky process called molting."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "In a food web, what role do fungi and bacteria play by recycling dead plants and animals back into soil nutrients?",
+    "options": [
+      "A) Primary producers",
+      "B) Decomposers",
+      "C) Secondary consumers",
+      "D) Apex predators"
+    ],
+    "answer": "B) Decomposers",
+    "info": "Decomposers are nature's ultimate cleanup crew! Without fungi and bacteria breaking down waste, earth would be piled miles high with old leaves and dead trees."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which animal is considered a 'keystone species' because its dam-building completely transforms local ecosystems?",
+    "options": [
+      "A) River otter",
+      "B) Beaver",
+      "C) Muskrat",
+      "D) Nutria"
+    ],
+    "answer": "B) Beaver",
+    "info": "Just like the center stone holds up an archway, a keystone species holds an entire ecosystem together! Beaver dams create wetlands that give hundreds of other animals a home."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is the largest marine mammal—and largest animal overall—ever known to have lived on Earth?",
+    "options": [
+      "A) Blue whale",
+      "B) Argentinosaurus",
+      "C) African bush elephant",
+      "D) Megalodon"
+    ],
+    "answer": "A) Blue whale",
+    "info": "Blue whales are bigger than any dinosaur that ever existed! Their hearts are the size of a small car, and their tongue alone weighs as much as an entire adult elephant."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which land mammal has the highest blood pressure in the world to help pump blood all the way up its neck?",
+    "options": [
+      "A) Elephant",
+      "B) Giraffe",
+      "C) Ostrich",
+      "D) Cheetah"
+    ],
+    "answer": "B) Giraffe",
+    "info": "To pump blood nearly 7 feet straight up to its brain, a giraffe's heart works at double the pressure of a human's—complete with special pressure-control valves in its neck so it doesn't pass out when taking a drink!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is the largest living species of fish in the ocean?",
+    "options": [
+      "A) Great white shark",
+      "B) Whale shark",
+      "C) Basking shark",
+      "D) Ocean sunfish"
+    ],
+    "answer": "B) Whale shark",
+    "info": "Despite growing up to 40 feet long (as big as a school bus!), whale sharks are harmless, gentle filter-feeders that scoop up tiny plankton instead of hunting big fish."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which marine mammal stays warm in freezing ocean water thanks to having the thickest fur coat on Earth?",
+    "options": [
+      "A) Polar bear",
+      "B) Sea otter",
+      "C) Muskox",
+      "D) Arctic fox"
+    ],
+    "answer": "B) Sea otter",
+    "info": "Sea otters don't have thick blubber like whales, so they rely on up to ONE MILLION hairs per square inch of skin to trap a layer of warm air next to their body!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Wildlife scientists can estimate the age of a male lion by observing changes in the pigmentation of its...?",
+    "options": [
+      "A) Mane length",
+      "B) Nose",
+      "C) Tail tuft",
+      "D) Ears"
+    ],
+    "answer": "B) Nose",
+    "info": "A lion cub starts life with a cute pink nose! As it gets older, dark freckles and melanin pigment fill in until its nose turns almost solid black."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "At birth, a tiny baby marsupial kangaroo (joey) is about the same size as what snack?",
+    "options": [
+      "A) Lima bean",
+      "B) Teaspoon",
+      "C) Jellybean",
+      "D) Walnut"
+    ],
+    "answer": "C) Jellybean",
+    "info": "When a joey is born, it's hairless, blind, and only the size of a single jellybean! It has to use its tiny front claws to climb up its mom's fur and crawl inside her pouch to keep growing."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Weighing less than a U.S. dime, what is the smallest mammal species on the planet?",
+    "options": [
+      "A) Etruscan shrew",
+      "B) Bumblebee bat",
+      "C) Pygmy possum",
+      "D) Least weasel"
+    ],
+    "answer": "B) Bumblebee bat",
+    "info": "Officially called Kitti's hog-nosed bat, this tiny creature is literally the size of a large bumblebee and can roost comfortably on the tip of your thumb!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Using its super-powered sense of olfaction (smell), how far away can a wolf detect prey?",
+    "options": [
+      "A) Up to 0.25 miles",
+      "B) Up to 1.75 miles",
+      "C) Up to 5 miles",
+      "D) Up to 10 miles"
+    ],
+    "answer": "B) Up to 1.75 miles",
+    "info": "Wolves have nearly 200 million scent receptors in their snouts—compared to a human's 5 million! That super-smeller lets them track down a meal nearly two miles away."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which land mammal packs the most powerful bite force, crushing down with around 1,800 PSI of pressure?",
+    "options": [
+      "A) Jaguar",
+      "B) Hippopotamus",
+      "C) Gorilla",
+      "D) Grizzly bear"
+    ],
+    "answer": "B) Hippopotamus",
+    "info": "A hippo can open its jaw 150 degrees wide! With a bite force of 1,800 PSI (three times stronger than a lion's), a hippo can easily snap a wooden canoe in half."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Where are the primary functional sweat glands located on a dog's body?",
+    "options": [
+      "A) Their tongue",
+      "B) Their paw pads",
+      "C) Their nose",
+      "D) Their ears"
+    ],
+    "answer": "B) Their paw pads",
+    "info": "Dogs pant to cool down their core body temperature, but their only real sweat glands are tucked between their paw pads. That's why you might spot damp paw prints on the floor on hot days!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is the proper biological term for an adult female fox?",
+    "options": [
+      "A) Vixen",
+      "B) Doe",
+      "C) Cow",
+      "D) Mare"
+    ],
+    "answer": "A) Vixen",
+    "info": "While a female fox is a vixen, a male fox is called a 'reynard' or 'dog fox', and baby foxes are called 'kits' or 'pups'."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "How many teeth can an alligator continuously produce and replace across its entire lifespan?",
+    "options": [
+      "A) Around 200",
+      "B) Around 500",
+      "C) Up to 3,000",
+      "D) Over 10,000"
+    ],
+    "answer": "C) Up to 3,000",
+    "info": "Alligators never have to worry about missing teeth! They have 'backup teeth' waiting beneath their functional ones, popping a fresh tooth into place whenever an old one breaks."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which reptile captures prey using a sticky, muscular tongue that can launch out up to twice its body length?",
+    "options": [
+      "A) Iguana",
+      "B) Chameleon",
+      "C) Gecko",
+      "D) Komodo dragon"
+    ],
+    "answer": "B) Chameleon",
+    "info": "A chameleon's tongue acts like a high-speed spring loaded suction cup, accelerating from 0 to 60 mph in a fraction of a second to snag bugs before they can react!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is the official collective noun for a loud flock of parrots?",
+    "options": [
+      "A) A murder",
+      "B) A parliament",
+      "C) A pandemonium"
+    ],
+    "answer": "C) A pandemonium",
+    "info": "This name fits perfectly! When a giant group of wild, brightly colored parrots starts squawking and flying around at once, it creates total pandemonium (chaos)!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which domestic farm animal lacks effective sweat glands and easily gets sunburned without shade or mud?",
+    "options": [
+      "A) Pig",
+      "B) Sheep",
+      "C) Goat",
+      "D) Horse"
+    ],
+    "answer": "A) Pig",
+    "info": "Pigs don't roll around in mud because they're dirty—they do it for skin protection! The mud acts as a natural sunblock and air conditioner to prevent sunburns."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is the specific term used for a male duck?",
+    "options": [
+      "A) Drake",
+      "B) Gander",
+      "C) Cob",
+      "D) Rooster"
+    ],
+    "answer": "A) Drake",
+    "info": "Male ducks (drakes) usually sport bright, colorful feathers to show off for mates, while female ducks have brown, camouflaged feathers to hide safely on their nests."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Based on fossil protein analysis, which living avian (bird) species is closely related to the *Tyrannosaurus rex*?",
+    "options": [
+      "A) Crocodile",
+      "B) Chicken",
+      "C) Komodo dragon",
+      "D) Iguana"
+    ],
+    "answer": "B) Chicken",
+    "info": "When scientists extracted ancient proteins preserved inside a T-rex bone, the DNA sequence matched modern birds like chickens closer than any living reptile! That means birds are technically living feathered dinosaurs."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "In which unique marine species does the male possess an abdominal pouch to carry and incubate fertilized eggs?",
+    "options": [
+      "A) Clownfish",
+      "B) Seahorse",
+      "C) Octopus",
+      "D) Narwhal"
+    ],
+    "answer": "B) Seahorse",
+    "info": "Seahorses flip traditional roles! The female transfers her eggs into the male's pouch, where he fertilizes them, carries them for weeks, and goes into labor to give birth."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which ocean fish is a sequential hermaphrodite, meaning it can naturally switch its gender during its life?",
+    "options": [
+      "A) Clownfish",
+      "B) Dolphin",
+      "C) Sea turtle",
+      "D) Lobster"
+    ],
+    "answer": "A) Clownfish",
+    "info": "All clownfish are actually born male! They live in groups led by a single dominant female. If she passes away, the largest male changes gender to become the new female leader."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which tiny organism acts as a disease vector, making it responsible for more human deaths annually than any other animal?",
+    "options": [
+      "A) Mosquito",
+      "B) Box jellyfish",
+      "C) Saltwater crocodile",
+      "D) Snake"
+    ],
+    "answer": "A) Mosquito",
+    "info": "Sharks get all the scary movies, but female mosquitoes are far more dangerous! By transmitting bloodborne parasites like malaria while feeding, they make mosquitoes the deadliest creatures on Earth."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which domestic goat breed is famous for producing ultra-soft mohair wool?",
+    "options": [
+      "A) Angora goat",
+      "B) Alpaca",
+      "C) Merino sheep",
+      "D) Llama"
+    ],
+    "answer": "A) Angora goat",
+    "info": "Here's a fun trick: Angora GOATS produce 'mohair' fiber, while Angora RABBITS produce 'angora' wool!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is an adult male swan called?",
+    "options": [
+      "A) Cob",
+      "B) Drake",
+      "C) Gander",
+      "D) Jack"
+    ],
+    "answer": "A) Cob",
+    "info": "A male swan is a cob, a female swan is a pen, and their adorable fluffy babies are called cygnets!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which marsupial has a tail so muscular it acts like a 'tripod' leg to support its body weight?",
+    "options": [
+      "A) Kangaroo",
+      "B) Grizzly bear",
+      "C) Beaver",
+      "D) Hippopotamus"
+    ],
+    "answer": "A) Kangaroo",
+    "info": "A kangaroo's tail isn't just for balance—it works like a powerful 5th leg! When moving slowly, they push off their thick tail to propel their whole body forward."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is the traditional collective noun for a flock of crows?",
+    "options": [
+      "A) A murder",
+      "B) A parliament",
+      "C) A flock",
+      "D) A roost"
+    ],
+    "answer": "A) A murder",
+    "info": "This spooky term comes from old myths and storytelling, where black crows hanging around were thought to be eerie omens!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Clocked at speeds up to 68 mph, what is considered the fastest swimming marine fish?",
+    "options": [
+      "A) Sailfish",
+      "B) Marlin",
+      "C) Orca",
+      "D) Mako shark"
+    ],
+    "answer": "A) Sailfish",
+    "info": "Sailfish are designed for maximum hydrodynamics (water speed). They can fold their giant back fin into a sleek groove on their body to slice through water like a torpedo!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Underneath its thick coat of translucent fur, what color is a polar bear's skin?",
+    "options": [
+      "A) Black",
+      "B) Pink",
+      "C) White",
+      "D) Brown"
+    ],
+    "answer": "A) Black",
+    "info": "A polar bear's skin is pitch black to soak up every bit of warmth from the sun, while its fur hairs are clear and hollow to bounce light and blend into snow."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Platypuses and echidnas belong to an egg-laying group of mammals known as...?",
+    "options": [
+      "A) Monotremes",
+      "B) Marsupials",
+      "C) Placental mammals",
+      "D) Amphibians"
+    ],
+    "answer": "A) Monotremes",
+    "info": "Monotremes break all the rules! They are fuzzy mammals that lay eggs like reptiles, carry venomous ankle spurs, and sweat milk out of their skin to feed their hatchlings."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is the proper term for a group of domesticated livestock like cattle?",
+    "options": [
+      "A) A herd",
+      "B) A pack",
+      "C) A flock",
+      "D) A mob"
+    ],
+    "answer": "A) A herd",
+    "info": "Cows are surprisingly social! Studies show that individual cows in a herd form tight bonds with 'best friends' and get stressed out when they are separated."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is the correct name for a female donkey?",
+    "options": [
+      "A) Jenny",
+      "B) Nanny",
+      "C) Mare",
+      "D) Cow"
+    ],
+    "answer": "A) Jenny",
+    "info": "A female donkey is called a jenny, while a male donkey is called a jack—which is where the funny phrase 'jackass' comes from!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which big cat lacks the throat structure needed to roar, communicating with purrs and chirps instead?",
+    "options": [
+      "A) Cheetah",
+      "B) Lion",
+      "C) Tiger",
+      "D) Leopard"
+    ],
+    "answer": "A) Cheetah",
+    "info": "In the cat family, you can either roar or purr, but not both! Because cheetahs have fixed vocal cords, they make high-pitched chirps and meow just like a giant housecat."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is a group of travel-ready camels called?",
+    "options": [
+      "A) A caravan",
+      "B) A herd",
+      "C) A flock",
+      "D) A pack"
+    ],
+    "answer": "A) A caravan",
+    "info": "Camel humps don't store water—they store up to 80 pounds of fat! When food is scarce in the desert, their bodies break that fat down into energy and water."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which Arctic marine mammal has the longest lifespan of any mammal, capable of living over 200 years?",
+    "options": [
+      "A) Bowhead whale",
+      "B) Blue whale",
+      "C) Manatee",
+      "D) Sea otter"
+    ],
+    "answer": "A) Bowhead whale",
+    "info": "Scientists realized bowhead whales could live for over two centuries after finding ancient 100-year-old ivory harpoon tips still tucked inside living whales!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Reaching diving speeds over 200 mph, which raptor holds the title of fastest animal in the world?",
+    "options": [
+      "A) Peregrine falcon",
+      "B) Golden eagle",
+      "C) Ostrich",
+      "D) Albatross"
+    ],
+    "answer": "A) Peregrine falcon",
+    "info": "When a peregrine falcon dives (stoops) at 200+ mph, air pressure would blow out a normal lung! They have small cone structures inside their nostrils to slow down the airflow."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "How many heart chambers does a cockroach have inside its tube-like circulatory system?",
+    "options": [
+      "A) 13",
+      "B) 4",
+      "C) 2",
+      "D) 8"
+    ],
+    "answer": "A) 13",
+    "info": "While humans have 4 heart chambers, a cockroach has 13 connected in a row. If one chamber gets damaged, the rest keep right on pumping!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What object does a male Gentoo or Adélie penguin present to a female during courtship?",
+    "options": [
+      "A) A smooth pebble",
+      "B) A piece of seaweed",
+      "C) A fish",
+      "D) A feather"
+    ],
+    "answer": "A) A smooth pebble",
+    "info": "Penguins build nests out of stones to keep their eggs above melting ice. Male penguins hunt for the shiniest, smoothest pebble to pop right at a female's feet!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What dark color is a giraffe's tongue, helping protect it from sun damage while reaching for leaves?",
+    "options": [
+      "A) Dark blue or purple",
+      "B) Bright pink",
+      "C) Pale white",
+      "D) Bright yellow"
+    ],
+    "answer": "A) Dark blue or purple",
+    "info": "A giraffe's tongue is up to 20 inches long! The dark purple pigment acts as built-in sunscreen so it doesn't get sunburned while reaching into tall trees all day."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which wild big cat has distinct black camouflage stripes on both its fur AND its skin?",
+    "options": [
+      "A) Tiger",
+      "B) Zebra",
+      "C) Leopard",
+      "D) Cheetah"
+    ],
+    "answer": "A) Tiger",
+    "info": "If you shaved a tiger, its dark stripes would still show up directly on its skin! Plus, no two tigers have the exact same stripe pattern."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "How do floating sea otters prevent ocean currents from drifting them apart while sleeping?",
+    "options": [
+      "A) They hold paws or wrap themselves in kelp",
+      "B) They hook their tails together",
+      "C) They sleep on the sandy shore",
+      "D) They sleep in underwater burrows"
+    ],
+    "answer": "A) They hold paws or wrap themselves in kelp",
+    "info": "Sea otters float on their backs to sleep! To keep from drifting out to open sea, they hold paws with a buddy or anchor themselves by wrapping kelp around their bodies."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Unlike freshwater tortoises, which marine reptile is physically unable to retract its head and flippers into its shell?",
+    "options": [
+      "A) Sea turtle",
+      "B) Box turtle",
+      "C) Snapping turtle",
+      "D) Painted turtle"
+    ],
+    "answer": "A) Sea turtle",
+    "info": "Giving up the ability to pull into their shells let sea turtles evolve flattened, hydrodynamic shells and giant flippers designed for fast ocean swimming!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What organ on the roof of a snake's mouth works with its forked tongue to sample smells in the air?",
+    "options": [
+      "A) Jacobson's organ",
+      "B) Pit organ",
+      "C) Olfactory bulb",
+      "D) Trachea"
+    ],
+    "answer": "A) Jacobson's organ",
+    "info": "Snakes flick their forked tongue to capture microscopic scent chemicals in the air, then plug the tongue tips into their Jacobson's organ to 'taste' which direction smell is coming from."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is the primary biological reason male frogs produce loud croaking calls during spring nights?",
+    "options": [
+      "A) To attract female mates",
+      "B) To frighten predators",
+      "C) To search for food",
+      "D) To stay cool"
+    ],
+    "answer": "A) To attract female mates",
+    "info": "Frogs fill elastic throat pouches with air to amplify their croaks like loudspeakers! Male frogs sing out so females can pick out the healthiest mate from far away."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Where are a cricket's auditory organs (ears) located on its body?",
+    "options": [
+      "A) On its front legs",
+      "B) On its head",
+      "C) On its antennae",
+      "D) Under its wings"
+    ],
+    "answer": "A) On its front legs",
+    "info": "Cricket ears aren't on their heads! They have tiny vibrating membranes (tympanal organs) located right below the knee joints on their front legs."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which predatory insect is unique for having a flexible neck joint that allows it to rotate its head 180 degrees?",
+    "options": [
+      "A) Praying mantis",
+      "B) Dragonfly",
+      "C) Grasshopper",
+      "D) Ladybug"
+    ],
+    "answer": "A) Praying mantis",
+    "info": "Praying mantises are the only insects that can turn their head all the way over their shoulder! This lets them scan for prey without moving their whole body and giving away their location."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which insect uses vibrating chest membranes to produce buzzing sounds over 100 decibels loud?",
+    "options": [
+      "A) Cicada",
+      "B) Cricket",
+      "C) Hornet",
+      "D) Katydid"
+    ],
+    "answer": "A) Cicada",
+    "info": "Male cicadas snap ribbed drum-like organs in their abdomens called 'tymbals' to make sounds as loud as a chainsaw or rock concert!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "To collect enough nectar to produce a single pound of honey, a beehive must visit roughly how many flowers?",
+    "options": [
+      "A) 2 million",
+      "B) 10,000",
+      "C) 50,000",
+      "D) 500,000"
+    ],
+    "answer": "A) 2 million",
+    "info": "It takes an unbelievable team effort! A single worker honeybee only makes about 1/12th of a single teaspoon of honey in her entire lifetime."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which group of mammals is identified by having sharp front teeth (incisors) that continually grow throughout life?",
+    "options": [
+      "A) Rodents",
+      "B) Felines",
+      "C) Canines",
+      "D) Marsupials"
+    ],
+    "answer": "A) Rodents",
+    "info": "Rats, mice, and squirrels MUST constantly gnaw on hard wood or nuts to file down their front teeth—otherwise, those teeth would keep growing right into their jaws!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which marine echinoderm can regenerate lost limbs and even regrow a whole body from a single severed arm?",
+    "options": [
+      "A) Sea star (Starfish)",
+      "B) Jellyfish",
+      "C) Lobster",
+      "D) Seahorse"
+    ],
+    "answer": "A) Sea star (Starfish)",
+    "info": "Sea stars keep vital organs inside their arms! If a predator bites off an arm, the sea star can re-grow the missing limb—and the cut limb can sometimes regrow a whole new sea star!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What color is the specialized skin-secretion 'sweat' that hippos produce as a natural sunscreen?",
+    "options": [
+      "A) Red / Pink",
+      "B) Clear",
+      "C) Bright Green",
+      "D) Dark Blue"
+    ],
+    "answer": "A) Red / Pink",
+    "info": "It looks like blood, but it isn't! Hippos secrete an oily red-orange fluid that acts as a natural sunblock, skin moisturizer, and antibiotic all in one."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which crustacean makes a growling threat sound by grinding internal teeth inside its stomach?",
+    "options": [
+      "A) Ghost crab",
+      "B) Mantis shrimp",
+      "C) Hermit crab",
+      "D) Fiddler crab"
+    ],
+    "answer": "A) Ghost crab",
+    "info": "Ghost crabs don't growl with their mouths! They rub tooth-like ridges inside their stomach (called a gastric mill) together to scare off predators."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "In a social lion pride, which animals carry out around 90% of the hunting duties?",
+    "options": [
+      "A) Female lions (Lionesses)",
+      "B) Male lions",
+      "C) Older cubs",
+      "D) Male and female lions equally"
+    ],
+    "answer": "A) Female lions (Lionesses)",
+    "info": "Lionesses do almost all the heavy lifting! They hunt in coordinated teams using strategic stealth, while big male lions stay back to defend the pride's territory."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which small mammal accidentally plants millions of wild trees every year by burying nuts and forgetting where they hid them?",
+    "options": [
+      "A) Squirrel",
+      "B) Chipmunk",
+      "C) Blue jay",
+      "D) Beaver"
+    ],
+    "answer": "A) Squirrel",
+    "info": "Squirrels scatter-hoard thousands of seeds and acorns for winter, but lose track of up to 74% of them! Those forgotten nuts sprout into brand-new trees."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which tree-dwelling marsupial rests up to 20 hours a day because its low-nutrient diet requires heavy digestion?",
+    "options": [
+      "A) Koala",
+      "B) Sloth",
+      "C) Giant panda",
+      "D) Armadillo"
+    ],
+    "answer": "A) Koala",
+    "info": "Koalas aren't lazy—they're conserving battery! Eucalyptus leaves are super tough and toxic, so koalas have to sleep almost all day just to break down the food."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "When two mating dragonflies connect mid-air, what geometric shape do their bodies form?",
+    "options": [
+      "A) Heart shape",
+      "B) Circle",
+      "C) Triangle",
+      "D) Spiral"
+    ],
+    "answer": "A) Heart shape",
+    "info": "This linked flight position is called a 'mating wheel.' Connected in a perfect heart shape, the two dragonflies can still fly around through the air together!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "According to animal behavior studies, how many distinct facial expressions can horses make to communicate?",
+    "options": [
+      "A) 17",
+      "B) 5",
+      "C) 10",
+      "D) 27"
+    ],
+    "answer": "A) 17",
+    "info": "Horses use facial expressions just like us! By moving their ears, nostrils, and lips, horses make 17 distinct facial expressions—more than chimps (14)!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which desert reptile deters predators by building up pressure and squirting foul-tasting blood out of its eyes?",
+    "options": [
+      "A) Texas horned lizard",
+      "B) Komodo dragon",
+      "C) Gila monster",
+      "D) Chameleon"
+    ],
+    "answer": "A) Texas horned lizard",
+    "info": "When cornered, this lizard can restrict blood flow in its head until tiny vessels in its eyelids burst, spraying a stream of nasty blood up to 5 feet!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What color are newborn flamingo chicks when they hatch from their eggs?",
+    "options": [
+      "A) Gray or white",
+      "B) Bright pink",
+      "C) Red",
+      "D) Yellow"
+    ],
+    "answer": "A) Gray or white",
+    "info": "Flamingos aren't born pink! Chicks hatch with dull gray feathers, slowly turning bright pink over time as they eat food packed with natural carotenoid pigments (like brine shrimp)."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which aquatic organism has 32 separate ganglia (mini-brains) distributed across its segmented body?",
+    "options": [
+      "A) Leech",
+      "B) Earthworm",
+      "C) Centipede",
+      "D) Tapeworm"
+    ],
+    "answer": "A) Leech",
+    "info": "A leech's body is divided into 32 distinct segments, and each segment houses its own mini-brain (ganglion) that controls local movement and feeling!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which grazing mammal has horizontal, rectangular pupils that give them wide panoramic vision to spot approaching predators?",
+    "options": [
+      "A) Goat",
+      "B) Cat",
+      "C) Eagle",
+      "D) Dog"
+    ],
+    "answer": "A) Goat",
+    "info": "Goat pupils act like wide-screen camera lenses! When a goat dips its head to eat grass, its eyeballs auto-rotate to keep those horizontal pupils level with the ground."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is the soft, rubbery V-shaped structure on the underside of a horse's hoof called?",
+    "options": [
+      "A) Frog",
+      "B) Sole",
+      "C) Wall",
+      "D) Heel"
+    ],
+    "answer": "A) Frog",
+    "info": "It sounds like an amphibian, but a horse's 'frog' is a flexible pad that absorbs shock and helps push blood back up the horse's long legs every time it takes a step!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "On average, domestic cats spend roughly what percentage of their lives asleep?",
+    "options": [
+      "A) Around 70%",
+      "B) Around 30%",
+      "C) Around 50%",
+      "D) Over 90%"
+    ],
+    "answer": "A) Around 70%",
+    "info": "Cats sleep 12 to 16 hours every day! That catnap habit is a survival instinct passed down from wild ancestors who needed to save up energy for big hunting bursts."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What specific tree leaves make up over 90% of a koala's herbivorous diet?",
+    "options": [
+      "A) Eucalyptus leaves",
+      "B) Bamboo leaves",
+      "C) Oak leaves",
+      "D) Maple leaves"
+    ],
+    "answer": "A) Eucalyptus leaves",
+    "info": "Eucalyptus leaves contain so much liquid that koalas rarely ever need to stop and drink water—in fact, the word 'koala' comes from an Indigenous term meaning 'no drink'!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What item do pair-bonded toucans toss back and forth using their oversized beaks during courtship games?",
+    "options": [
+      "A) Fruit",
+      "B) Twigs",
+      "C) Pebbles",
+      "D) Leaves"
+    ],
+    "answer": "A) Fruit",
+    "info": "Toucans play a gentle game of catch! They toss berries and fruit back and forth to show off their coordination and build trust before building a nest."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which land mammal possesses the most sensitive sense of smell, with around 2,000 olfactory receptor genes?",
+    "options": [
+      "A) African elephant",
+      "B) Bloodhound",
+      "C) Grizzly bear",
+      "D) Wolf"
+    ],
+    "answer": "A) African elephant",
+    "info": "Move over, bloodhounds! African elephants have five times more smell-receptor genes than humans, allowing them to sniff out underground water sources miles away."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What tool do sea otters keep tucked into a loose pocket of skin under their forearm to crack open hard shellfish?",
+    "options": [
+      "A) Their favorite rock",
+      "B) A sharp shell",
+      "C) A sturdy stick",
+      "D) A piece of coral"
+    ],
+    "answer": "A) Their favorite rock",
+    "info": "Sea otters are tool users! They carry a special rock stored in a armpit skin pouch, using it like a hammer to smash open stubborn clam and crab shells."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which friendly body-language signal does a domestic cat use to communicate trust and affection to humans?",
+    "options": [
+      "A) Slow blinking",
+      "B) Wagging their tail quickly",
+      "C) Yawning loudly",
+      "D) Meowing continuously"
+    ],
+    "answer": "A) Slow blinking",
+    "info": "When a cat looks at you and slowly closes and opens its eyes, it's sending a 'cat kiss'! It shows they feel completely safe around you. Try slow-blinking back!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which filter-feeding bird must position its beak upside down in water to scoop and swallow food?",
+    "options": [
+      "A) Flamingo",
+      "B) Pelican",
+      "C) Toucan",
+      "D) Hummingbird"
+    ],
+    "answer": "A) Flamingo",
+    "info": "Flamingos have built-in water filters in their beaks! By dipping their heads completely upside down, they use their muscular tongues to pump muddy water through filter plates."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "How do honeybee foragers communicate the exact direction and distance of flower fields to their hive mates?",
+    "options": [
+      "A) Performing a 'waggle dance'",
+      "B) Buzzing at a high pitch",
+      "C) Releasing a scent cloud",
+      "D) Tapping antennae together"
+    ],
+    "answer": "A) Performing a 'waggle dance'",
+    "info": "Bees dance out a GPS map! By wiggling in figure-eight patterns, a scout bee tells her hive mates the precise angle and distance to the best flowers relative to the Sun."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Where are the only two regions on Earth where wild lion populations naturally live today?",
+    "options": [
+      "A) Sub-Saharan Africa and the Gir Forest in India",
+      "B) Sub-Saharan Africa and South America",
+      "C) India and Australia",
+      "D) Madagascar and South Africa"
+    ],
+    "answer": "A) Sub-Saharan Africa and the Gir Forest in India",
+    "info": "Most people think wild lions only live in Africa, but a tiny population of Asiatic lions lives protected in India's Gir Forest!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which small, translucent sea creature holds the title for most venomous animal in the ocean?",
+    "options": [
+      "A) Box jellyfish",
+      "B) Stonefish",
+      "C) Blue-ringed octopus",
+      "D) Cone snail"
+    ],
+    "answer": "A) Box jellyfish",
+    "info": "The Australian Sea Wasp (a type of box jellyfish) carries venom so potent that a single sting can stop a human heart in under three minutes."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is the official term for a group of spiky hedgehogs?",
+    "options": [
+      "A) A prickle",
+      "B) A herd",
+      "C) A pack",
+      "D) A litter"
+    ],
+    "answer": "A) A prickle",
+    "info": "A group of hedgehogs is fittingly called a 'prickle'! Baby hedgehogs (hoglets) are born with soft quills tucked under fluid-filled skin so they don't hurt their mom."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which prey animal uses quick, unpredictable zigzag running patterns to evade chasing predators?",
+    "options": [
+      "A) Rabbit",
+      "B) Cheetah",
+      "C) Kangaroo",
+      "D) Sloth"
+    ],
+    "answer": "A) Rabbit",
+    "info": "When being chased, rabbits don't run in a straight line—they hit hard 90-degree turns at 45 mph, causing heavy predators like coyotes to overshoot and miss!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Polar bear fur isn't actually white! What optical property describes the clear, hollow structure of their hair?",
+    "options": [
+      "A) Translucent and light-scattering",
+      "B) Solid white pigment",
+      "C) Pale yellow tinting",
+      "D) Reflective silver coating"
+    ],
+    "answer": "A) Translucent and light-scattering",
+    "info": "Polar bear fur has zero white pigment! Their fur hairs are clear, hollow tubes that bounce sunlight around, making the bear look snowy white while trapping heat."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What cooperative hunting strategy do humpback whales use to trap schools of fish inside a rising wall of air?",
+    "options": [
+      "A) Bubble-net feeding",
+      "B) Tail slapping",
+      "C) Echolocation waves",
+      "D) Mud splashing"
+    ],
+    "answer": "A) Bubble-net feeding",
+    "info": "Whales work together like a team! One whale blows a rising ring of bubbles under a school of fish, creating a shiny net of air that traps prey so the whales can gulp them up."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "How many main weight-bearing hooved toes does a sheep have on each foot?",
+    "options": [
+      "A) Two",
+      "B) Four",
+      "C) One",
+      "D) Three"
+    ],
+    "answer": "A) Two",
+    "info": "Sheep are cloven-hoofed animals, meaning they walk on two main split toes per foot! They also have two tiny, higher-up 'dewclaws' that don't touch the ground."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which white avian species is globally recognized as an international symbol of peace?",
+    "options": [
+      "A) Dove",
+      "B) Eagle",
+      "C) Owl",
+      "D) Robin"
+    ],
+    "answer": "A) Dove",
+    "info": "Doves and pigeons belong to the exact same bird family! White release doves are actually homing pigeons that have been selectively bred for their snow-white feathers."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is the proper term for a family group of wild pigs or boars?",
+    "options": [
+      "A) A sounder",
+      "B) A flock",
+      "C) A pack",
+      "D) A pride"
+    ],
+    "answer": "A) A sounder",
+    "info": "A group of wild pigs is called a sounder! It usually consists of a few mother pigs and their piglets travelling together for safety."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is an adult male turkey called?",
+    "options": [
+      "A) Tom",
+      "B) Drake",
+      "C) Rooster",
+      "D) Cob"
+    ],
+    "answer": "A) Tom",
+    "info": "Male turkeys are called 'toms' (or 'jakes' if they are young)! You can tell a male turkey's mood by watching the flap of skin on his beak (snood) change from red to blue!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "How many teats are located on a dairy cow's udder for milking?",
+    "options": [
+      "A) Four",
+      "B) Two",
+      "C) Six",
+      "D) Eight"
+    ],
+    "answer": "A) Four",
+    "info": "A cow's udder is split into four separate quarters, each with its own teat that operates independently like four distinct milk pumps."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which domestic pet can hear high-frequency ultrasonic sounds, giving it a sense of hearing roughly four times more sensitive than ours?",
+    "options": [
+      "A) Dog",
+      "B) Elephant",
+      "C) Horse",
+      "D) Bear"
+    ],
+    "answer": "A) Dog",
+    "info": "Dogs have 18 separate muscles controlling each ear, allowing them to tilt and pivot their ears like directional radar dishes to pinpoint tiny sounds!"
+  }
+]

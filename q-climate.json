@@ -1,0 +1,172 @@
+[
+  {
+    "subject": "SCIENCE",
+    "question": "What scientific term describes a plant using sunlight, water, and air to make its own food?",
+    "options": [
+      "A) Photosynthesis",
+      "B) Respiration",
+      "C) Fermentation",
+      "D) Digestion"
+    ],
+    "answer": "A) Photosynthesis",
+    "info": "Plants are basically solar-powered snack factories! They absorb sunlight to turn water and carbon dioxide into sugar (glucose), which is their version of a energy drink."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "When you leave a cold soda outside on a hot summer day and water droplets form on the outside, what process just happened?",
+    "options": [
+      "A) Condensation",
+      "B) Evaporation",
+      "C) Sublimation",
+      "D) Precipitation"
+    ],
+    "answer": "A) Condensation",
+    "info": "Your drink isn't sweating! Invisible water vapor in the warm air hits the cold glass, loses energy, and transforms back into liquid water right before your eyes."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is the term for an animal that eats BOTH pizza with meat and a veggie salad?",
+    "options": [
+      "A) Omnivore",
+      "B) Herbivore",
+      "C) Carnivore",
+      "D) Decomposer"
+    ],
+    "answer": "A) Omnivore",
+    "info": "Humans, bears, and raccoons are all omnivores! Being an omnivore means you aren't a picky eater—your body can get energy from both plants and other animals."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "If you rub a balloon on your hair and stick it to a wall, which force is pulling the trick off?",
+    "options": [
+      "A) Static electricity",
+      "B) Gravity",
+      "C) Magnetism",
+      "D) Friction"
+    ],
+    "answer": "A) Static electricity",
+    "info": "Rubbing the balloon steals tiny negative charges called electrons from your hair. The charged balloon then clings to the wall like a miniature magnetic trap!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What do we call the state of matter when chocolate melts in your pocket into a messy liquid?",
+    "options": [
+      "A) Phase change",
+      "B) Chemical reaction",
+      "C) Evaporation",
+      "D) Dissolving"
+    ],
+    "answer": "A) Phase change",
+    "info": "When chocolate melts, it goes through a physical phase change from solid to liquid. The molecules don't change into a new substance—it's still chocolate, just way messier!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "When you drop your phone and it falls straight to the floor, what force is pulling it down?",
+    "options": [
+      "A) Gravity",
+      "B) Inertia",
+      "C) Air resistance",
+      "D) Momentum"
+    ],
+    "answer": "A) Gravity",
+    "info": "Gravity is the invisible attraction between any two objects with mass. Earth is so massive that it pulls everything—including your poor dropped phone—toward its center!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What scientific term describes a organism's temporary sleep-like rest during cold winter months to save energy?",
+    "options": [
+      "A) Hibernation",
+      "B) Camouflage",
+      "C) Migration",
+      "D) Adaptation"
+    ],
+    "answer": "A) Hibernation",
+    "info": "Imagine hitting the snooze button for three months! Animals like bears and groundhogs slow their heart rate and breathing way down so they don't have to look for food in the snow."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which organelle acts like the 'powerhouse' or battery inside your body's cells?",
+    "options": [
+      "A) Mitochondria",
+      "B) Nucleus",
+      "C) Ribosome",
+      "D) Cell wall"
+    ],
+    "answer": "A) Mitochondria",
+    "info": "Mitochondria take the food you eat and break it down into usable cellular energy (ATP). Without them, your body wouldn't have the power to run, think, or even blink!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What term describes a trait or behavior that helps an animal survive in its environment, like a chameleon changing color?",
+    "options": [
+      "A) Adaptation",
+      "B) Mutation",
+      "C) Fossilization",
+      "D) Ecosystem"
+    ],
+    "answer": "A) Adaptation",
+    "info": "Adaptations are like cheat codes for survival! Over millions of years, creatures develop cool features—like thick fur in the Arctic or sharp camouflage—to stay alive."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is the term for the invisible boundary or outer 'skin' of a cell that controls what goes in and out?",
+    "options": [
+      "A) Cell membrane",
+      "B) Cytoplasm",
+      "C) Cell wall",
+      "D) Vacuole"
+    ],
+    "answer": "A) Cell membrane",
+    "info": "Think of the cell membrane like a security guard at a club: it lets nutrients like sugar and water in, but keeps harmful waste and dangerous invaders out!"
+  },
+  [
+  {
+    "subject": "SCIENCE",
+    "question": "Although fluffy cumulus clouds look light as air, roughly how much mass does a typical summer cloud hold?",
+    "options": [
+      "A) 1,000 pounds",
+      "B) 50,000 pounds",
+      "C) 1.1 million pounds",
+      "D) 50 million pounds"
+    ],
+    "answer": "C) 1.1 million pounds",
+    "info": "That fluffy cloud in the sky weighs about 100 elephants! It stays floating because the water droplets inside are spread out over a massive area and rest on warm, rising air currents."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Forest ecosystems communicate through an underground mycorrhizal network of fungi. What nickname do scientists give this natural information highway?",
+    "options": [
+      "A) The Wood Wide Web",
+      "B) The Plant Pipeline",
+      "C) The Root Router",
+      "D) The Dirt Net"
+    ],
+    "answer": "A) The Wood Wide Web",
+    "info": "Trees use subterranean fungal networks to share water and nutrients, and even send chemical warning signals to neighboring trees when pest insects attack!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Although fluffy cumulus clouds look light as air, roughly how much mass does a typical summer cloud hold?",
+    "options": [
+      "A) 1,000 pounds",
+      "B) 50,000 pounds",
+      "C) 1.1 million pounds",
+      "D) 50 million pounds"
+    ],
+    "answer": "C) 1.1 million pounds",
+    "info": "That fluffy cloud in the sky weighs about 100 elephants! It stays floating because the water droplets inside are spread out over a massive area and rest on warm, rising air currents."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Forest ecosystems communicate through an underground mycorrhizal network of fungi. What nickname do scientists give this natural information highway?",
+    "options": [
+      "A) The Wood Wide Web",
+      "B) The Plant Pipeline",
+      "C) The Root Router",
+      "D) The Dirt Net"
+    ],
+    "answer": "A) The Wood Wide Web",
+    "info": "Trees use subterranean fungal networks to share water and nutrients, and even send chemical warning signals to neighboring trees when pest insects attack!"
+  }
+]
+]

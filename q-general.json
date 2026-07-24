@@ -1,0 +1,450 @@
+[
+  {
+    "subject": "SCIENCE",
+    "question": "How do plants make their own food using energy from the Sun, water, and carbon dioxide?",
+    "options": ["A) Respiration", "B) Photosynthesis", "C) Digestion", "D) Evaporation"],
+    "answer": "B) Photosynthesis",
+    "info": "Plants are green because of a pigment called chlorophyll, which absorbs blue and red light waves from the Sun but reflects green light back at our eyes!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which layer of Earth sits right under the crust and is made of super-hot, slow-flowing rock?",
+    "options": ["A) Inner Core", "B) Outer Core", "C) Mantle", "D) Atmosphere"],
+    "answer": "C) Mantle",
+    "info": "The Earth's mantle makes up roughly 84% of the planet's total volume! It's solid rock, but under extreme heat and pressure, it flows as slowly as fingernails grow."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which state of matter keeps the same amount of space (volume), but changes its shape to fit whatever container you pour it into?",
+    "options": ["A) Solid", "B) Liquid", "C) Gas", "D) Plasma"],
+    "answer": "B) Liquid",
+    "info": "Water is one of the very few substances on Earth that naturally exists in all three physical states (solid ice, liquid water, and gas water vapor) at everyday temperatures!"
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "Which computer part is considered an input device because it sends information INTO the computer?",
+    "options": ["A) Monitor", "B) Printer", "C) Keyboard", "D) Headphones"],
+    "answer": "C) Keyboard",
+    "info": "The standard keyboard layout is called QWERTY (look at the top row of letters!). It was originally invented for typewriters in the 1870s to slow fast typists down so mechanical keys wouldn't jam together."
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "What does the abbreviation URL stand for when you type a website address?",
+    "options": ["A) Uniform Resource Locator", "B) Universal Recovery Link", "C) User Runtime Log", "D) United Research Network"],
+    "answer": "A) Uniform Resource Locator",
+    "info": "Tim Berners-Lee, the inventor of the World Wide Web, has admitted he regrets adding the double slash ('//') after 'http:' in URLs because it ended up wasting billions of typed characters worldwide!"
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "In coding, what type of variable can only have two possible answers: True or False?",
+    "options": ["A) String", "B) Integer", "C) Float", "D) Boolean"],
+    "answer": "D) Boolean",
+    "info": "Boolean logic is named after George Boole, a self-taught 19th-century mathematician. Today, all modern electronic computer chips run on billions of tiny Boolean 'true/false' (1 or 0) switches!"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "Which type of bridge relies on giant steel cables hanging from tall towers to hold up the road?",
+    "options": ["A) Arch Bridge", "B) Suspension Bridge", "C) Beam Bridge", "D) Truss Bridge"],
+    "answer": "B) Suspension Bridge",
+    "info": "The steel main cables on the famous Golden Gate Bridge in San Francisco are made of 27,572 individual wires wrapped together into giant ropes over three feet thick!"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "Aerospace engineers study lift and drag to help design which vehicle?",
+    "options": ["A) Airplanes", "B) Submarines", "C) Trains", "D) Bulldozers"],
+    "answer": "A) Airplanes",
+    "info": "An airplane's wing works using Bernoulli's principle—the top of the wing is curved so air moves faster over it, lowering the air pressure above the wing and 'sucking' the plane up into the sky!"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "What simple machine uses a wheel with a groove and a rope to make lifting heavy loads much easier?",
+    "options": ["A) Lever", "B) Pulley", "C) Screw", "D) Wedge"],
+    "answer": "B) Pulley",
+    "info": "If you connect multiple pulleys together in a system called a 'block and tackle', a single person can easily lift a object weighing thousands of pounds all by themselves!"
+  },
+  {
+    "subject": "ARTS",
+    "question": "When you mix the primary colors blue and yellow together, what secondary color do you make?",
+    "options": ["A) Purple", "B) Orange", "C) Green", "D) Brown"],
+    "answer": "C) Green",
+    "info": "While painters use Red, Yellow, and Blue as primary colors, your computer screens use Red, Green, and Blue (RGB) light! When all three screen colors light up at max brightness, they create pure white light."
+  },
+  {
+    "subject": "ARTS",
+    "question": "In music, what term describes the speed or pace at which a song is played?",
+    "options": ["A) Pitch", "B) Tempo", "C) Rhythm", "D) Melody"],
+    "answer": "B) Tempo",
+    "info": "Musicians use Italian words for tempos! 'Presto' means super fast (like a magician trick!), while 'Largo' means slowly and broadly."
+  },
+  {
+    "subject": "ARTS",
+    "question": "What visual trick or technique do artists use to make a flat 2D surface look like it has 3D depth and distance?",
+    "options": ["A) Perspective", "B) Shading", "C) Texturing", "D) Abstracting"],
+    "answer": "A) Perspective",
+    "info": "Before Renaissance artists mastered linear perspective in the 1400s, ancient paintings often drew important people bigger and less important people smaller, regardless of how far away they stood!"
+  },
+  {
+    "subject": "MATH",
+    "question": "What is the mathematical name for the distance all the way around the outside edge of a circle?",
+    "options": ["A) Diameter", "B) Radius", "C) Area", "D) Circumference"],
+    "answer": "D) Circumference",
+    "info": "No matter how big or tiny a circle is—from a pizza pie to the planet Earth—if you divide its circumference by its diameter, you ALWAYS get the number Pi (roughly 3.14)!"
+  },
+  {
+    "subject": "MATH",
+    "question": "Solve for X in this algebra equation: 3X + 5 = 20",
+    "options": ["A) X = 3", "B) X = 5", "C) X = 15", "D) X = 4"],
+    "answer": "B) X = 5",
+    "info": "The word 'Algebra' comes from the Arabic word 'al-jabr', which roughly translates to 'reunion of broken parts'—fitting for solving math puzzles!"
+  },
+  {
+    "subject": "MATH",
+    "question": "What name is given to an angle that forms a perfect 'L' shape and measures exactly 90 degrees?",
+    "options": ["A) Acute Angle", "B) Obtuse Angle", "C) Right Angle", "D) Straight Angle"],
+    "answer": "C) Right Angle",
+    "info": "Why is it called a 'right' angle? It comes from the Latin word 'rectus', meaning upright or standing straight—nothing to do with left vs. right direction!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which invisible force pulls objects down toward Earth's center and keeps planets orbiting around the Sun?",
+    "options": ["A) Magnetism", "B) Friction", "C) Gravity", "D) Inertia"],
+    "answer": "C) Gravity",
+    "info": "Because the Moon has much less mass than Earth, its gravitational pull is only 1/6th as strong! On the Moon, you could jump six times higher than you can at school!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which organ system breaks down the food you eat into tiny nutrients that your body can absorb for energy?",
+    "options": ["A) Respiratory System", "B) Digestive System", "C) Circulatory System", "D) Nervous System"],
+    "answer": "B) Digestive System",
+    "info": "Your stomach uses powerful acids to break down food—so strong that your stomach has to create a new lining of mucus every few days so it doesn't digest itself!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What do scientists call an animal that eats only other animals for food?",
+    "options": ["A) Herbivore", "B) Omnivore", "C) Carnivore", "D) Decomposer"],
+    "answer": "C) Carnivore",
+    "info": "The largest meat-eater (carnivore) on land today is the Polar Bear, but the largest carnivore in the entire world is the Sperm Whale!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which massive landform is created when Earth's giant tectonic plates crash into each other and crumple upward over millions of years?",
+    "options": ["A) Canyon", "B) Mountain Range", "C) Ocean Trench", "D) Sand Dune"],
+    "answer": "B) Mountain Range",
+    "info": "Mount Everest is still growing! Because the Indian tectonic plate is continuously pushing into Asia, Everest grows about 4 millimeters higher every single year."
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "What is the term for the physical parts of a computer system that you can actually touch, like the keyboard, screen, or mouse?",
+    "options": ["A) Software", "B) Malware", "C) Hardware", "D) Firmware"],
+    "answer": "C) Hardware",
+    "info": "The first computer mouse invented back in 1964 wasn't plastic—it was carved out of a small wooden block and had two metal wheels on the bottom!"
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "What does WWW stand for when you look at internet links?",
+    "options": ["A) World Wide Web", "B) Western Web Wire", "C) Wireless Web Window", "D) Wide World Working"],
+    "answer": "A) World Wide Web",
+    "info": "The World Wide Web and the Internet aren't the same thing! The internet is the giant network of connected computers, while the Web is just one way we share pages and media across that network."
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "What general word describes bad software created by hackers to damage devices or steal information?",
+    "options": ["A) Firewall", "B) Malware", "C) Firmware", "D) Operating System"],
+    "answer": "B) Malware",
+    "info": "'Malware' is short for 'malicious software'. The first known computer virus spread in 1971 was called the 'Creeper virus'—it didn't steal data, it just displayed a message saying: 'I'm the creeper, catch me if you can!'"
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "Which computer component is known as the 'brain' because it handles calculations and executes commands?",
+    "options": ["A) RAM", "B) Hard Drive", "C) CPU", "D) Power Supply"],
+    "answer": "C) CPU",
+    "info": "CPU stands for Central Processing Unit. Modern smartphone CPUs can perform over 15 trillion operations every single second!"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "What do engineers call an early sample or rough test model built to try out an idea before mass-producing it?",
+    "options": ["A) Final Product", "B) Blueprint", "C) Prototype", "D) Schematic"],
+    "answer": "C) Prototype",
+    "info": "When James Dyson was inventing his famous bagless vacuum cleaner, he built 5,127 failed prototypes over 15 years before he finally perfected his working design!"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "What is the main purpose of a sturdy 'retaining wall' built by civil engineers?",
+    "options": ["A) Support a roof", "B) Hold back soil or water", "C) Direct traffic flow", "D) Generate electricity"],
+    "answer": "B) Hold back soil or water",
+    "info": "Without retaining walls, many roads winding along mountains or steep hillsides would quickly crumble away during heavy rain mudslides!"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "Which simple machine consists of a flat, slanted surface used to make raising heavy items easier?",
+    "options": ["A) Inclined Plane", "B) Lever", "C) Wheel and Axle", "D) Screw"],
+    "answer": "A) Inclined Plane",
+    "info": "Ancient Egyptians likely used massive inclined planes (ramps) made of mudbrick and limestone to drag heavy multi-ton stone blocks up to build the Great Pyramids!"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "Why do engineers rely on triangular frames (trusses) when constructing bridges, roofs, and cranes?",
+    "options": ["A) Triangles use less material", "B) Triangles are rigid and hold their shape under heavy weight", "C) Triangles look prettier", "D) Triangles allow wind to pass through easier"],
+    "answer": "B) Triangles are rigid and hold their shape under heavy weight",
+    "info": "Triangles are the strongest geometric shape because a weight pushed down on one point gets evenly pushed down both sides into the base!"
+  },
+  {
+    "subject": "ARTS",
+    "question": "In theater, what is the written book containing the actors' lines and stage directions called?",
+    "options": ["A) Novel", "B) Script", "C) Lyric", "D) Score"],
+    "answer": "B) Script",
+    "info": "The word 'script' comes from the Latin 'scriptum', meaning 'written thing'. Movie scripts use a very strict format where 1 page of script equals roughly 1 minute of screen time!"
+  },
+  {
+    "subject": "ARTS",
+    "question": "Which sculpting technique involves adding and shaping soft materials like clay or wax together into a shape?",
+    "options": ["A) Subtractive Sculpture", "B) Modeling / Additive Sculpture", "C) Origami", "D) Mosaic"],
+    "answer": "B) Modeling / Additive Sculpture",
+    "info": "Famous stop-motion animation movies like *Coraline* or *The Nightmare Before Christmas* use additive clay modeling—animators adjust the clay puppets micro-millimeter by micro-millimeter for every frame!"
+  },
+  {
+    "subject": "ARTS",
+    "question": "What is it called when two or more different musical notes are played or sung at the same time to make a pleasing sound?",
+    "options": ["A) Solo", "B) Rhythm", "C) Harmony", "D) Staccato"],
+    "answer": "C) Harmony",
+    "info": "Some birds, like the Veery Thrush, have a special voice box (a syrinx) that lets them sing two different notes at the exact same time in perfect two-part harmony!"
+  },
+  {
+    "subject": "MATH",
+    "question": "In statistics, what do we call the 'average' of a group of numbers, calculated by adding them up and dividing by how many there are?",
+    "options": ["A) Median", "B) Mode", "C) Mean", "D) Range"],
+    "answer": "C) Mean",
+    "info": "Here is a handy trick to remember: The **Mean** is mean because it forces you to do all the math work! The **Mode** is the number you see **Most** often!"
+  },
+  {
+    "subject": "MATH",
+    "question": "What is the term for a fraction where the top number (numerator) is equal to or bigger than the bottom number (denominator)?",
+    "options": ["A) Mixed Number", "B) Improper Fraction", "C) Proper Fraction", "D) Decimal Fraction"],
+    "answer": "B) Improper Fraction",
+    "info": "An improper fraction isn't 'wrong' or 'bad' at all! It just means you have more than one whole item—like having $7/4$ slices of pizza, which means 1 full pie plus 3 extra slices!"
+  },
+  {
+    "subject": "MATH",
+    "question": "If you measure and add together all three inside angles of ANY triangle, what total degrees will you always get?",
+    "options": ["A) 90 degrees", "B) 180 degrees", "C) 360 degrees", "D) 450 degrees"],
+    "answer": "B) 180 degrees",
+    "info": "Try it! Tear off the three corners of any paper triangle and line up their points side-by-side—they will always form a perfectly flat straight line (180 degrees)!"
+  },
+  {
+    "subject": "MATH",
+    "question": "What is the geometric name for a 3D solid shape that is perfectly round like a marble or globe?",
+    "options": ["A) Cylinder", "B) Cone", "C) Sphere", "D) Cube"],
+    "answer": "C) Sphere",
+    "info": "Liquid drops floating in zero-gravity space naturally pull themselves into perfect spheres because a sphere holds the absolute maximum volume with the smallest surface area!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which star is located closest to Earth?",
+    "options": ["A) Alpha Centauri", "B) Polaris (The North Star)", "C) The Sun", "D) Sirius"],
+    "answer": "C) The Sun",
+    "info": "Light from our Sun travels at 186,282 miles per second, but because Earth is so far away, it still takes about 8 minutes and 20 seconds for sunlight to hit your eyes!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which type of animal hatches in water breathing through gills, but grows up to develop lungs and live on land?",
+    "options": ["A) Reptiles", "B) Amphibians", "C) Mammals", "D) Fish"],
+    "answer": "B) Amphibians",
+    "info": "The word 'amphibian' comes from a Greek word meaning 'double life'! Many frogs can actually breathe right through their wet skin!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "On the Celsius scale, at what exact temperature does liquid water freeze into ice?",
+    "options": ["A) 32°C", "B) 0°C", "C) 100°C", "D) -12°C"],
+    "answer": "B) 0°C",
+    "info": "Unlike almost everything else on Earth that shrinks when it freezes, water expands when it turns into solid ice—which is why ice floats in water!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "At sea level, at what temperature on the Celsius scale does water begin to boil?",
+    "options": ["A) 212°C", "B) 50°C", "C) 100°C", "D) 180°C"],
+    "answer": "C) 100°C",
+    "info": "Because air pressure is lower high up on tall mountains, water actually boils at lower temperatures there—making it take longer to boil an egg on Mount Everest!"
+  },
+  {
+    "subject": "MATH",
+    "question": "If a recipe asks for 1/2 cup of flour and you only have a 1/4 measuring cup, how many times must you fill your cup?",
+    "options": ["A) 2 times", "B) 3 times", "C) 4 times", "D) 1 time"],
+    "answer": "A) 2 times. 1/4 + 1/4 = 2/4 = 1/2",
+    "info": "Ancient Egyptians almost exclusively used unit fractions (fractions with a 1 on top, like 1/3, 1/4, or 1/5) for all their everyday math!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "What is the single largest organ in the human body?",
+    "options": ["A) Heart", "B) Brain", "C) Skin", "D) Liver"],
+    "answer": "C) Skin",
+    "info": "Your skin makes up about 16% of your body weight. You shed about 30,000 to 40,000 dead skin cells every single minute!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which world in our solar system is nicknamed the 'Red Planet' because of its rusty soil?",
+    "options": ["A) Venus", "B) Mars", "C) Jupiter", "D) Mercury"],
+    "answer": "B) Mars",
+    "info": "Mars looks red because its ground is full of iron oxide—the exact same chemical component that makes rusty metal turn red!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which gas do human lungs pull out of the air to keep our cells alive?",
+    "options": ["A) Carbon Dioxide", "B) Nitrogen", "C) Oxygen", "D) Helium"],
+    "answer": "C) Oxygen",
+    "info": "Even though oxygen is vital for us, Earth's air isn't mostly oxygen—78% of the air around us is actually Nitrogen gas!"
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which moon phase happens when the side facing Earth is completely lit up by the Sun?",
+    "options": ["A) New Moon", "B) Crescent Moon", "C) Full Moon", "D) Quarter Moon"],
+    "answer": "C) Full Moon",
+    "info": "The Moon doesn't make any light of its own! When you look at a bright Full Moon, you're seeing sunshine reflecting off dark gray moon dust."
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "Which file extension is commonly added at the end of a saved Microsoft Word text document?",
+    "options": ["A) .jpg", "B) .mp3", "C) .docx", "D) .png"],
+    "answer": "C) .docx",
+    "info": "The 'x' added at the end of newer Microsoft formats like .docx or .xlsx stands for 'XML', an open formatting standard introduced in 2007."
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "What primary function does a Wi-Fi connection provide for your tech devices?",
+    "options": ["A) Print documents", "B) Connect wirelessly to a network", "C) Charge batteries", "D) Store files permanently"],
+    "answer": "B) Connect wirelessly to a network",
+    "info": "Fun myth buster: 'Wi-Fi' doesn't actually stand for 'Wireless Fidelity'! The name was created by a branding firm because it sounded punchy like 'hi-fi'."
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "Which programming tool lets code make decisions based on whether a condition is true or false (e.g., using 'if' statements)?",
+    "options": ["A) Loop", "B) Variable", "C) Conditional", "D) Function"],
+    "answer": "C) Conditional",
+    "info": "Conditionals power video games! For example: **IF** player health = 0, **THEN** trigger Game Over!"
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "What does the tech term 'AI' stand for?",
+    "options": ["A) Automated Internet", "B) Artificial Intelligence", "C) Advanced Interface", "D) Automatic Input"],
+    "answer": "B) Artificial Intelligence",
+    "info": "In 1997, an AI chess computer named 'Deep Blue' beat the reigning world human chess champion, Garry Kasparov, for the first time in history!"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "Which simple machine features a rigid bar that balances or pivots on a fixed support point called a fulcrum?",
+    "options": ["A) Pulley", "B) Lever", "C) Screw", "D) Wedge"],
+    "answer": "B) Lever",
+    "info": "Playground seesaws are levers! Ancient Greek genius Archimedes famously said: 'Give me a lever long enough and a fulcrum to place it on, and I shall move the world!'"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "What force pulling toward Earth's center must structural engineers account for so buildings don't collapse?",
+    "options": ["A) Gravity", "B) Magnetism", "C) Friction", "D) Tension"],
+    "answer": "A) Gravity",
+    "info": "Engineers building super-tall skyscrapers like the Burj Khalifa also have to design against strong winds—the top can sway several feet back and forth without breaking!"
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "Which building material is usually reinforced with internal steel bars (rebar) to create strong foundations and bridges?",
+    "options": ["A) Glass", "B) Concrete", "C) Plastic", "D) Wood"],
+    "answer": "B) Concrete",
+    "info": "Ancient Romans invented self-healing concrete using volcanic ash! Roman concrete structures like the Pantheon dome are still standing strong after 2,000 years."
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "In a machine, what main task do interlocking, toothed wheels called gears perform?",
+    "options": ["A) Produce electricity", "B) Change speed, power, or direction of motion", "C) Store energy", "D) Reduce weight"],
+    "answer": "B) Change speed, power, or direction of motion",
+    "info": "If you pair a small gear with a large gear, you trade speed for power! That's why bicycle gears help you pedal up steep hills easily."
+  },
+  {
+    "subject": "ARTS",
+    "question": "Violins, violas, cellos, and double basses all belong to which family of musical instruments?",
+    "options": ["A) Brass", "B) Woodwind", "C) String", "D) Percussion"],
+    "answer": "C) String",
+    "info": "High-end violins crafted by Antonio Stradivari in the 1700s are worth millions today—partly because cool climate wood back then created unique acoustic sounds!"
+  },
+  {
+    "subject": "ARTS",
+    "question": "Which three basic colors cannot be created by mixing other paints together in traditional art?",
+    "options": ["A) Red, Yellow, Blue", "B) Red, Green, Blue", "C) Cyan, Magenta, Yellow", "D) Orange, Purple, Green"],
+    "answer": "A) Red, Yellow, Blue",
+    "info": "The world's rarest paint color historically was 'Ultramarine' blue, made by crushing up semi-precious lapis lazuli stones imported from Afghan mountains!"
+  },
+  {
+    "subject": "ARTS",
+    "question": "In music, what do we call a recurring pattern of strong and weak beats over time?",
+    "options": ["A) Rhythm", "B) Pitch", "C) Harmony", "D) Tone"],
+    "answer": "A) Rhythm",
+    "info": "Your heart has its own internal rhythm! An average resting human heart beats rhythmically around 60 to 100 times per minute."
+  },
+  {
+    "subject": "ARTS",
+    "question": "Which rolled paper art tool is used by artists to smoothly blend and smudge pencil or charcoal shadows?",
+    "options": ["A) Compass", "B) Blending Stump", "C) Protractor", "D) Palette Knife"],
+    "answer": "B) Blending Stump",
+    "info": "Blending stumps (also called *tortillons*) are tightly rolled spirals of paper that smudge graphite without transferring oils from your skin onto the drawing paper!"
+  },
+  {
+    "subject": "MATH",
+    "question": "What is the rounded number value for the mathematical constant Pi (π) to two decimal places?",
+    "options": ["A) 2.14", "B) 3.14", "C) 4.13", "D) 3.41"],
+    "answer": "B) 3.14",
+    "info": "March 14th (3/14) is celebrated around the world as official Pi Day—usually by eating delicious pie baked by math fans!"
+  },
+  {
+    "subject": "MATH",
+    "question": "What is 25% of 80?",
+    "options": ["A) 15", "B) 20", "C) 25", "D) 30"],
+    "answer": "B) 20",
+    "info": "Here is a math trick: 25% is always equal to 1/4! To find 25% of any number, just cut the number in half twice (half of 80 is 40, half of 40 is 20)!"
+  },
+  {
+    "subject": "MATH",
+    "question": "Which of these whole numbers is a prime number (divisible ONLY by 1 and itself)?",
+    "options": ["A) 21", "B) 27", "C) 29", "D) 33"],
+    "answer": "C) 29",
+    "info": "The number 2 is the ONLY even prime number in existence! Every other even number can be divided by 2."
+  },
+  {
+    "subject": "MATH",
+    "question": "How many flat surfaces (faces) make up a 3D cube?",
+    "options": ["A) 4", "B) 6", "C) 8", "D) 12"],
+    "answer": "B) 6",
+    "info": "A standard six-sided die is a cube! Opposing sides on a standard die will always add up to the number 7 (1 opposite 6, 2 opposite 5, 3 opposite 4)."
+  },
+  {
+    "subject": "SCIENCE",
+    "question": "Which components in your bloodstream act like tiny soldiers to help protect you against sick bacteria and viruses?",
+    "options": ["A) Red Blood Cells", "B) White Blood Cells", "C) Platelets", "D) Plasma"],
+    "answer": "B) White Blood Cells",
+    "info": "When your body is fighting off an infection, your bone marrow speeds up production, creating millions of extra white blood cells to destroy invaders!"
+  },
+  {
+    "subject": "TECHNOLOGY",
+    "question": "Which service lets you save files safely online over the internet instead of storing them locally on your computer drive?",
+    "options": ["A) Flash Drive", "B) Google Drive", "C) DVD", "D) Hard Disk"],
+    "answer": "B) Google Drive",
+    "info": "'Cloud storage' isn't up in the sky! Your files are stored in massive warehouse buildings called data centers packed with thousands of running computer servers."
+  },
+  {
+    "subject": "ENGINEERING",
+    "question": "Why do engineers frequently incorporate curved arches into bridges and doorways?",
+    "options": ["A) They are easier to paint", "B) They spread weight outward and downward efficiently", "C) They float on water", "D) They reduce wind resistance"],
+    "answer": "B) They spread weight outward and downward efficiently",
+    "info": "Arches work so well because heavy weight pushes all the stones tightly against one another down to the central 'keystone', locking the structure tight!"
+  },
+  {
+    "subject": "ARTS",
+    "question": "What do we call a picture made by piecing together hundreds of small colored tiles, stones, or glass pieces?",
+    "options": ["A) Collage", "B) Mosaic", "C) Fresco", "D) Etching"],
+    "answer": "B) Mosaic",
+    "info": "The tiny individual colored pieces used to create a stone or glass mosaic are called *tesserae*—from a Greek word meaning 'four-sided'!"
+  },
+  {
+    "subject": "MATH",
+    "question": "A flat rectangular playground is 8 meters long and 5 meters wide. What is its total area?",
+    "options": ["A) 13 m²", "B) 26 m²", "C) 40 m²", "D) 80 m²"],
+    "answer": "C) 40 m²",
+    "info": "Remember: Area measures the flat space **INSIDE** a shape (Length × Width), while Perimeter measures the distance **AROUND** the outside edge!"
+  }
+]
